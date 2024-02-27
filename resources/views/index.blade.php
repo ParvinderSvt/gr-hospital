@@ -234,7 +234,7 @@
                         <div class="card pg-card">
                             <a
                                 href="#"><img
-                                    src="{{url('assets/images/doctor.jpg')}}"
+                                    src="{{url('assets/images/doc-dummy.png')}}"
                                     class="card-img-top"
                                     alt="Doctors at GR Hospital."></a>
                             <div class="card-body">
@@ -248,7 +248,7 @@
                     </div>
                     <div class="news_slide_wrap">
                         <div class="card pg-card">
-                            <a href="#"><img src="{{url('assets/images/arun.jpg')}}" class="card-img-top" alt="Doctors at GR Hospital."></a>
+                            <a href="#"><img src="{{url('assets/images/doc-dummy.png')}}" class="card-img-top" alt="Doctors at GR Hospital."></a>
                             <div class="card-body">
 
                                 <h5><a href="#">DR. VIBHANSHU JAIN</a></h5>
@@ -260,7 +260,7 @@
                     </div>
                     <div class="news_slide_wrap">
                         <div class="card pg-card">
-                            <a href="#"><img src="{{url('assets/images/radhakrishna.jpg')}}" class="card-img-top"
+                            <a href="#"><img src="{{url('assets/images/doc-dummy.png')}}" class="card-img-top"
                                     alt="Doctors at GR Hospital."></a>
                             <div class="card-body">
 
@@ -273,7 +273,7 @@
                     </div>
                     <div class="news_slide_wrap">
                         <div class="card pg-card">
-                            <a href="#"><img src="{{url('assets/images/shalini.jpg')}}" class="card-img-top" alt="Doctors at GR Hospital."></a>
+                            <a href="#"><img src="{{url('assets/images/doc-dummy.png')}}" class="card-img-top" alt="Doctors at GR Hospital."></a>
                             <div class="card-body">
 
                                 <h5><a href="#">DR. BHAVNA SINGH</a></h5>
@@ -285,7 +285,7 @@
                     </div>
                     <div class="news_slide_wrap">
                         <div class="card pg-card">
-                            <a href="#"><img src="{{url('assets/images/mohammed.jpg')}}" class="card-img-top"
+                            <a href="#"><img src="{{url('assets/images/doc-dummy.png')}}" class="card-img-top"
                                     alt="Doctors at GR Hospital."></a>
                             <div class="card-body">
 

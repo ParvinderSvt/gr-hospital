@@ -133,7 +133,11 @@
                                 </li>
                                 <li id="tl_health_information"
                                     class="health_info_menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-27773">
-                                    <a href="#0" aria-haspopup="true" aria-expanded="false">Departments</a>
+                                    <a href="#0" aria-haspopup="true" aria-expanded="false">
+                                      
+                                        Department
+
+                                    </a>
                                     <ul class="sub-menu">
                                         <li id="tl_diseases_and_conditions"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27788">
