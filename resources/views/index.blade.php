@@ -214,7 +214,7 @@
     </div>
 </section>
 
-<section class="whatnew_sec">
+<section id="connect" class="whatnew_sec">
     <div class="container">
         <div class="row text-center justify-content-center">
             <div class="col-md-8">

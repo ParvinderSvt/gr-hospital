@@ -134,57 +134,118 @@
                                 <li id="tl_health_information"
                                     class="health_info_menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-27773">
                                     <a href="#0" aria-haspopup="true" aria-expanded="false">
-                                      
+
                                         Department
 
                                     </a>
                                     <ul class="sub-menu">
                                         <li id="tl_diseases_and_conditions"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27788">
-                                            <a href="#0">GENERAL PHYSICIAN</a>
+                                            <a href="#0">General Physician</a>
                                         </li>
                                         <li id="Eye"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275788">
-                                            <a href="#0">ORTHOPAEDICS</a>
+                                            <a href="#0">Orthopaedics</a>
                                         </li>
                                         <li id="Dermatology"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">ENT SURGEON</a>
+                                            <a href="#0">Ent Surgeon</a>
                                         </li>
                                         <li id="Dermatology"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">OBS & GYNAEGOLOGIST</a>
+                                            <a href="#0">Obs & Gynaecologist</a>
                                         </li>
                                         <li id="Dermatology"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">GENERAL & PEDIRATIC SURGEON</a>
+                                            <a href="#0">General & Pediatric Surgeon</a>
                                         </li>
                                         <li id="tl_diseases_and_conditions"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27788">
-                                            <a href="#0">OPHTHALMOLOGIST</a>
+                                            <a href="#0">Ophthalmologist</a>
                                         </li>
                                         <li id="Eye"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275788">
-                                            <a href="#0">NEURO SURGEON</a>
+                                            <a href="#0">Neuro Surgeon</a>
                                         </li>
                                         <li id="Dermatology"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">MAXILLOFACIAL SURGEON</a>
+                                            <a href="#0">Maxillofacial Surgeon</a>
                                         </li>
                                         <li id="Dermatology"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">CARDIOLOGIST</a>
+                                            <a href="#0">Cardiologist</a>
                                         </li>
                                         <li id="Dermatology"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">RADIOLOGIST</a>
+                                            <a href="#0">Radiologist</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">Pathologist</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">Gastrologist</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">Plastic Surgeon</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">Child Specialist</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">Urologist</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">General Physician</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">Anesthetic</a>
                                         </li>
                                     </ul>
+                                    <li>
+
+                                        <ul class="sub-menu">
+                                            <li id="Dermatology"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                                <a href="#0">PATHOLOGIST</a>
+                                            </li>
+                                            <li id="Dermatology"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                                <a href="#0">GASTROLOGIST</a>
+                                            </li>
+                                            <li id="Dermatology"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                                <a href="#0">PLASTIC SURGEON</a>
+                                            </li>
+                                            <li id="Dermatology"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                                <a href="#0">CHILD SPECIALIST</a>
+                                            </li>
+                                            <li id="Dermatology"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                                <a href="#0">UROLOGIST</a>
+                                            </li>
+                                            <li id="Dermatology"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                                <a href="#0">GENERAL PHYSCIAN</a>
+                                            </li>
+                                            <li id="Dermatology"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                                <a href="#0">ANESTHETIC</a>
+                                            </li>
+                                        </ul>
+                                    </li>
 
                                 </li>
                                 <li id="tl_international_patient"
                                     class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-3763">
-                                    <a target="_blank" rel="noopener" href="#0" aria-haspopup="true"
+                                    <a rel="noopener" href="#connect" aria-haspopup="true"
                                         aria-expanded="false">Doctors</a>
 
                                 </li>
