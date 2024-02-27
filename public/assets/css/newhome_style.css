@@ -669,14 +669,14 @@ ul {
 }
 
 ul li a {
-    color: #011b37;
+    color: #2970bb;
     font-weight: 500;
     font-size: 0.96rem;
     text-decoration: none;
     line-height: 1.8;
 }
 ul li a:hover {
-    color: #00346c;
+    color: #4226bd;
 }
 .page-sitemap {
     padding: 40px 0px;
@@ -3908,10 +3908,10 @@ button.nav-link.active {
     align-items: center;
 }
 .book-appointment a {
-    color: #fff;
+    color: #030303;
     font-size: 12px;
     font-weight: 600;
-    background: #011b37;
+    background: #fafafc;
     border-radius: 54px;
     padding: 7px 22px;
     display: flex;
