@@ -20,7 +20,7 @@
         <div class="carousel-item active h-100">
             <div class="herobanner-img position-relative h-100">
                 <img src="{{url('assets/images/banner1.webp')}}" style="width:100%" alt="banner" class="jpdiv">
-                
+
 
             </div>
         </div>
@@ -45,7 +45,7 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-  
+
 <section class="why_ah_sec">
     <div class="container">
         <div class="row g-lg-5 g-3">
@@ -54,7 +54,7 @@
                 <h2>G.R. Hospital & Research Centre</h2>
                 <h5 class="card-title mb-3 fw-bold">We Provide Most Professional Service
                 Since 1984</h5>
-                 
+
                 <p>G.R. Hospital & Research Centre is a multi super facility Hospital equipped to address a wide range of medical needs
                 across various disciplines. With specialized departments including cardiology, neurology, orthopedics, oncology, and
                 more, it offers diagnostic, therapeutic, and surgical services to patients. These hospitals integrate advanced medical
@@ -64,16 +64,16 @@
                 and enhance the overall well-being of the community they serve.</p>
             <a href="#"
                 class="text-warning text-decoration-none">Read More <i class="fa fa-long-arrow-right ps-2 small"></i> </a>
-             
+
             </div>
             <div class="col-md-5">
-                 
+
                 <div id="hospital-loc-holder" class="location-info ms-lg-auto">
                     <div class="card border-0 rounded-4 ah_shadow">
                         <img src="{{url('assets/images/2023-01-12.jpg')}}"
                             class="card-img-top p-2 rounded-4 img-fluid" alt="GR Hospital">
                     </div>
-                 
+
                 </div>
             </div>
         </div>
@@ -88,10 +88,10 @@
             <br>
         </div>
         </div>
-    
+
         <!-- COEs -->
         <div class="row">
-        
+
             <div class="col-md-3 mb-3">
                 <div class="card menu-card">
                     <div class="card-body">
@@ -206,11 +206,11 @@
                     </div>
                 </div>
             </div>
-            
-          
+
+
         </div>
         <!-- End COEs -->
-    
+
     </div>
 </section>
 
@@ -234,13 +234,14 @@
                         <div class="card pg-card">
                             <a
                                 href="#"><img
-                                    src="{{url('assets/images/ambika.jpg')}}"
+                                    src="{{url('assets/images/doctor.jpg')}}"
                                     class="card-img-top"
                                     alt="Doctors at GR Hospital."></a>
                             <div class="card-body">
-                                 
-                                <h5><a href="#">Ambika Rawat</a></h5>
-                                <p class="card-text">MBBS, MD</p>
+
+                                <h5><a href="#">DR. RAJENDRA SINGH</a></h5>
+                                <p class="card-text">GENERAL PHYSICIAN</p>
+                                <p class="card-text">MBBS,MD</p>
                                 <a href="#"   class="text-warning">Read More <i class="fa fa-long-arrow-right"></i> </a>
                             </div>
                         </div>
@@ -249,9 +250,10 @@
                         <div class="card pg-card">
                             <a href="#"><img src="{{url('assets/images/arun.jpg')}}" class="card-img-top" alt="Doctors at GR Hospital."></a>
                             <div class="card-body">
-                    
-                                <h5><a href="#">Aejun Rawat</a></h5>
-                                <p class="card-text">MS, FICS, Rtd Prof.</p>
+
+                                <h5><a href="#">DR. VIBHANSHU JAIN</a></h5>
+                                <p class="card-text">ORTHOPAEDICS</p>
+                                <p class="card-text">MBBS,MS</p>
                                 <a href="#" class="text-warning">Read More <i class="fa fa-long-arrow-right"></i> </a>
                             </div>
                         </div>
@@ -261,38 +263,39 @@
                             <a href="#"><img src="{{url('assets/images/radhakrishna.jpg')}}" class="card-img-top"
                                     alt="Doctors at GR Hospital."></a>
                             <div class="card-body">
-                    
-                                <h5><a href="#">Radha krishna </a></h5>
-                                <p class="card-text">MS, FICS, Rtd Prof.</p>
+
+                                <h5><a href="#">DR. SHOBIT GUPTA </a></h5>
+                                <p class="card-text">ENT SURGEON</p>
+                                <p class="card-text">MBBS,MS</p>
                                 <a href="#" class="text-warning">Read More <i class="fa fa-long-arrow-right"></i> </a>
                             </div>
                         </div>
                     </div>
                     <div class="news_slide_wrap">
                         <div class="card pg-card">
-                            <a href="#"><img src="{{url('assets/images/mohammed.jpg')}}" class="card-img-top" alt="Doctors at GR Hospital."></a>
+                            <a href="#"><img src="{{url('assets/images/shalini.jpg')}}" class="card-img-top" alt="Doctors at GR Hospital."></a>
                             <div class="card-body">
-                    
-                                <h5><a href="#">Mohammed </a></h5>
-                                <p class="card-text">MS, FICS, Rtd Prof.</p>
+
+                                <h5><a href="#">DR. BHAVNA SINGH</a></h5>
+                                <p class="card-text">OBS & GYNAEGOLOGIST</p>
+                                <p class="card-text">MBBS,DGO,ICMCH</p>
                                 <a href="#" class="text-warning">Read More <i class="fa fa-long-arrow-right"></i> </a>
                             </div>
                         </div>
                     </div>
                     <div class="news_slide_wrap">
                         <div class="card pg-card">
-                            <a href="#"><img src="{{url('assets/images/shalini.jpg')}}" class="card-img-top"
+                            <a href="#"><img src="{{url('assets/images/mohammed.jpg')}}" class="card-img-top"
                                     alt="Doctors at GR Hospital."></a>
                             <div class="card-body">
-                    
-                                <h5><a href="#">Shalini Rawat</a></h5>
-                                <p class="card-text">MS, FICS, Rtd Prof.</p>
+
+                                <h5><a href="#">DR. PRASHANT GUPTA</a></h5>
+                                <p class="card-text">GENERAL & PEDIATRIC SURGEON</p>
+                                <p class="card-text">MBBS,MS</p>
                                 <a href="#" class="text-warning">Read More <i class="fa fa-long-arrow-right"></i> </a>
                             </div>
                         </div>
                     </div>
- 
-
 
 
                 </div>
@@ -301,7 +304,7 @@
             </div>
         </div>
 
-    
+
     </div>
 </section>
 
@@ -337,7 +340,7 @@
                         <h4>Accessibility and Convenience</h4>
                         <div>GR Hospital be conveniently located, easily accessible by public transportation and equipped with amenities...</div>
                     </div>
-                  
+
 
                 </div>
             </div>
@@ -346,7 +349,7 @@
                 <div class="card border-0 who-card">
                     <img src="{{url('assets/images/mission.webp')}}"
                         class="card-img " alt="...">
-                  
+
                 </div>
             </div>
         </div>
@@ -357,7 +360,7 @@
         <div class="row text-center justify-content-center">
             <div class="col-md-8 mb-5">
                 <h2>What Are People Saying</h2>
-                
+
             </div>
         </div>
 
@@ -379,7 +382,7 @@
                         I felt
                         comfortable throughout my stay. I highly recommend GR Hospital for top-notch healthcare
                         services...<br><small style="color: #ff9e9c;">Pushpendra, Agra</small></p>
-            
+
                 </div>
             </div>
             <div class="col-md-4">
@@ -387,10 +390,10 @@
                     <p>Choosing GR Hospital was the best decision for my family's health. The dedicated medical team provided expert care with
                     empathy and professionalism. Their advanced facilities and personalized approach made us feel reassured and valued. ABC
                     Hospital truly delivers excellence in healthcare.<br><small style="color: #ff9e9c;">Ramesh, Agra</small></p>
-            
+
                 </div>
             </div>
-          
+
         </div>
     </div>
 </section>
@@ -398,7 +401,7 @@
     <div class="container">
         <div class="row text-center justify-content-center">
             <div class="col-md-8">
-                <h2 class=" mb-4">Our Insurance Partners 
+                <h2 class=" mb-4">Our Insurance Partners
 </h2>
                 <!-- <p class="pb-lg-3 pb-2 text-white"> Helping Our Patients And Their Families Get Back To What Matters Most.</p> -->
             </div>
@@ -411,34 +414,34 @@
                             target="_blank" id="BookAppointment-BB" class=" ">
                             <img src="{{url('assets/images/max-life-1.jpg')}}"
                                 alt="icon" width="64">
-                          
+
                         </a>
                     </div>
                     <div class= "">
                         <a href="#" target="_blank" id="BookAppointment-BB" class=" ">
                             <img src="{{url('assets/images/star-1.jpg')}}" alt="icon" width="64">
-                    
+
                         </a>
                     </div>
                     <div class= "">
                         <a href="#" target="_blank" id="BookAppointment-BB" class=" ">
                             <img src="{{url('assets/images/future-1.jpg')}}" alt="icon" width="64">
-                    
+
                         </a>
                     </div>
                     <div class= "">
                         <a href="#" target="_blank" id="BookAppointment-BB" class=" ">
                             <img src="{{url('assets/images/sbi-life-1.jpg')}}" alt="icon" width="64">
-                    
+
                         </a>
                     </div>
-                  
+
                      <div class= "">
                         <a href="#"
                             target="_blank" id="BookAppointment-BB" class=" ">
                             <img src="{{url('assets/images/future-1.jpg')}}"
                                 alt="icon" width="64">
-                          
+
                         </a>
                     </div>
                 </div>
