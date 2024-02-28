@@ -37,3 +37,6 @@ Route::get('/blog-detail', function () {
 Route::get('/property-details', function () {
     return view('property-details');
 });
+Route::get('/appointment', function () {
+    return view('appointment');
+})->name('appointment');

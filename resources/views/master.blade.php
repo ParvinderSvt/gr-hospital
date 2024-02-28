@@ -289,7 +289,7 @@
                             </a>
                         </li>
                         <li class="book-appointment">
-                            <a target="_self" href="#0">
+                            <a target="_self" href="{{ route('appointment') }}">
                                 <i class="fa-solid fa-calendar-days me-2"></i>
                                 Book Appointment
                             </a>

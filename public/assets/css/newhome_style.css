@@ -4204,3 +4204,51 @@ button.nav-link.active {
         left: 15px;
     }
 }
+
+h2 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+/* input[type="email"], */
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+input[type="submit"] {
+    background-color: #060706;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 0.01rem;
+    margin-bottom: 1rem ;
+   margin-inline: 30rem;
+    border-radius: 4px;
+    cursor: pointer;
+    /* float: right; */
+    transition: 0.5s ;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
