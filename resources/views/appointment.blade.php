@@ -10,37 +10,53 @@
             <div class="form-box">
                 <div class="container">
                     <h2>Doctor's Appointment Form</h2>
-                    <form action="#" method="post">
+                    <form action="{{ route('appointment.store') }}" method="post">
+                        @csrf
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
-
+                        @error('name')
+                        <p class="text-danger">{{ $message }}</p>
+                        @enderror
                         <label for="gender">Gender:</label>
-                        <select id="department" name="department" required>
+                        <select id="department" name="gender" required>
                             <option value="male" selected>Male</option>
                             <option value="female">Female</option>
                             <option value="other">Other</option>
                         </select>
-
+                        @error('gender')
+                        <p class="text-danger">{{ $message }}</p>
+                        @enderror
                         <label for="phone">Phone No:</label>
                         <input type="text" id="phone" name="phone" required>
+                        @error('phone')
+                        <p class="text-danger">{{ $message }}</p>
+                        @enderror
                         <label for="date">Appointment Date:</label>
-                        <input type="date" id="date" name="date" required>
-
-                        <div style="display: flex;">
-
-
-                        </div>
+                        <input type="date" id="date" name="appointment_date" required>
+                        @error('appointment_date')
+                        <p class="text-danger">{{ $message }}</p>
+                        @enderror
 
                         <label for="department">Department:</label>
                         <select id="department" name="department" required>
                             <option value="">Select Department</option>
-                            <option value="Cardiology">Cardiology</option>
-                            <option value="Orthopedics">Orthopedics</option>
-                            <option value="Neurology">Neurology</option>
-                            <option value="Oncology">Oncology</option>
-                            <option value="Dermatology">Dermatology</option>
+                            <option value="General Physician">General Physician</option>
+                            <option value="Orthopaedics">Orthopaedics</option>
+                            <option value="Ent Surgeon">Ent Surgeon</option>
+                            <option value="Obs & Gynaecologist">Obs & Gynaecologist</option>
+                            <option value="General & Pediatric Surgeon">General & Pediatric Surgeon</option>
+                            <option value="Ophthalmologist">Ophthalmologist</option>
+                            <option value="Neuro Surgeon">Neuro Surgeon</option>
+                            <option value="Maxillofacial Surgeon">Maxillofacial Surgeon</option>
+                            <option value="Cardiologist">Cardiologist</option>
+                            <option value="Radiologist">Radiologist</option>
+                            <option value="Pathologist">Pathologist</option>
+                            <option value="Gastrologist">Gastrologist</option>
+                            <option value="Plastic Surgeon">Plastic Surgeon</option>
+                            <option value="Child Specialist">Child Specialist</option>
+                            <option value="Urologist">Urologist</option>
+                            <option value="Anesthetic">Anesthetic</option>
                         </select>
-
 
                         <input type="submit" value="Submit">
                     </form>

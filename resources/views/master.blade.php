@@ -38,6 +38,10 @@
     <link rel="stylesheet" href="{{ config('app.url') }}assets/assets/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="{{ config('app.url') }}assets/assets/fontawesome-free-6.2.0-web/css/all.min.css">
 
+    <!-- Sweet Alert CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+        integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
 
@@ -100,11 +104,6 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
-
-
-
-
 
                     <div class="collapse navbar-collapse" id="navbarsExample09">
                         <div class="menu-main-menu-container ms-auto">
@@ -256,8 +255,7 @@
                                 </li>
                                 <li id="tl_contact_us"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3767">
-                                    <a href="{{ route('appointment') }}" aria-haspopup="true"
-                                        aria-expanded="false">Contact
+                                    <a href="#" aria-haspopup="true" aria-expanded="false">Contact
                                         Us</a>
                                 </li>
 
@@ -281,7 +279,7 @@
                             </a>
                         </li>
                         <li class="book-appointment">
-                            <a target="_self" href="{{ route('appointment') }}">
+                            <a target="_self" href="{{ route('appointment.index') }}">
                                 <i class="fa-solid fa-calendar-days me-2"></i>
                                 Book Appointment
                             </a>
@@ -472,6 +470,16 @@
             font-size: 14px;
         }
     </style>
+    
+    @if (Session::has('success'))
+    <script>
+        swal("Success", "{{ Session::get('success') }}", 'success', {
+            buttons: {
+                confirm: "OK",
+            },
+        });
+    </script>
+    @endif
 </body>
 
 </html>

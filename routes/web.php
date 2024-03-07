@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AppointmentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,10 +38,11 @@ Route::get('/blog-detail', function () {
 Route::get('/property-details', function () {
     return view('property-details');
 });
-Route::get('/appointment', function () {
-    return view('appointment');
-})->name('appointment');
+// Route::get('/appointment', function () {
+//     return view('appointment');
+// })->name('appointment');
 
+Route::resource('appointment', AppointmentController::class);
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
