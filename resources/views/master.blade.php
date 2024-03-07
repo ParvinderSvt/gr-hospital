@@ -35,8 +35,8 @@
     <link rel="stylesheet" href="{{ config('app.url') }}/assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="{{ config('app.url') }}/assets/css/newhome_style.css">
     <!-- <link rel="stylesheet" href="homestyles.css"> -->
-    <link rel="stylesheet" href="{{ config('app.url') }}/assets/assets/fontawesome-free-5.15.4-web/css/all.min.css">
-    <link rel="stylesheet" href="{{ config('app.url') }}/assets/assets/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="{{ config('app.url') }}assets/assets/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="{{ config('app.url') }}assets/assets/fontawesome-free-6.2.0-web/css/all.min.css">
 
     <!-- Sweet Alert CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
@@ -112,32 +112,30 @@
                                     <a href="{{ config('app.url') }}/" aria-haspopup="true"
                                         aria-expanded="false">Home</a>
                                 </li>
-                                <li id="tl_centres_of_excellence"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4350">
-                                    <a href="#0" aria-haspopup="true" aria-expanded="false">About Us</a>
-                                    <ul class="sub-menu">
-
-                                        <li id="tl_pulmonology"
+                                  <li class="nav-item dropdown">
+          <a class=" dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          About Us
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+             <li id="tl_pulmonology"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28481">
-                                            <a href="#">Mission & Vision</a>
+                                            <a href="{{url('/mission-vision')}}">Mission & Vision</a>
                                         </li>
                                         <li id="tl_ear,_nose_and_throat"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28549">
-                                            <a href="#">About Us</a>
+                                            <a href="{{url('/about-us')}}">About Us</a>
+                                        </li>
+          </ul>
+                                  </li>
 
-                                    </ul>
-                                </li>
-                                <li id="tl_health_information"
-                                    class="health_info_menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-27773">
-                                    <a href="#0" aria-haspopup="true" aria-expanded="false">
-
-                                        Department
-
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li id="tl_diseases_and_conditions"
+                                 <li class="nav-item dropdown">
+          <a class=" dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Department
+          </a>
+          <ul class="dropdown-menu mega" aria-labelledby="navbarDropdownMenuLink">
+            <li id="tl_diseases_and_conditions"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27788">
-                                            <a href="#0">General Physician</a>
+                                            <a href="{{url('/department')}}">General Physician</a>
                                         </li>
                                         <li id="Eye"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275788">
@@ -203,59 +201,31 @@
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
                                             <a href="#0">Anesthetic</a>
                                         </li>
-                                    </ul>
-                                <li>
+          </ul>
+        </li>
 
-                                    <ul class="sub-menu">
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">PATHOLOGIST</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">GASTROLOGIST</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">PLASTIC SURGEON</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">CHILD SPECIALIST</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">UROLOGIST</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">GENERAL PHYSCIAN</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">ANESTHETIC</a>
-                                        </li>
-                                    </ul>
-                                </li>
+
 
                                 </li>
                                 <li id="tl_international_patient"
                                     class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-3763">
-                                    <a rel="noopener" href="#connect" aria-haspopup="true"
+                                    <a rel="noopener" href="{{url('/doctors')}}" aria-haspopup="true"
                                         aria-expanded="false">Doctors</a>
 
                                 </li>
                                 <li id="tl_hospitals"
                                     class="cites_subnav menu-item menu-item-type-post_type menu-item-object-page  menu-item-29960">
-                                    <a href="#0" aria-haspopup="true" aria-expanded="false">Gallery</a>
+                                    <a href="{{url('/gallery')}}" aria-haspopup="true" aria-expanded="false">Gallery</a>
                                 </li>
                                 <li id="tl_corporate"
                                     class="highlight-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-6529">
-                                    <a href="#0" aria-haspopup="true" aria-expanded="false">FAQ’s</a>
+                                    <a href="{{url('/faqs')}}" aria-haspopup="true" aria-expanded="false">FAQ’s</a>
                                 </li>
+
                                 <li id="tl_contact_us"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3767">
-                                    <a href="#" aria-haspopup="true" aria-expanded="false">Contact
+                                    <a href="{{ route('appointment') }}" aria-haspopup="true"
+                                        aria-expanded="false">Contact
                                         Us</a>
                                 </li>
 
@@ -273,7 +243,7 @@
                 <div class="wrapper">
                     <ul>
                         <li>
-                            <a class="request-callback-menu" target="_self" href="javascript:void(0)">
+                            <a class="request-callback-menu" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#exampleModal">
                                 <i class="fa-solid fa-phone me-2"></i>
                                 Request a Callback
                             </a>
@@ -285,7 +255,7 @@
                             </a>
                         </li>
                         <li class="">
-                            <a target="_blank" href="#0">
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#exampleModal">
                                 <i class="fa-solid fa-stethoscope me-2"></i>
                                 Get Health Checkup
                             </a>
@@ -297,6 +267,45 @@
     </section>
 
     @yield('content')
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">We Will Call You Back!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <div class="">
+                <div class="container">
+
+                    <form action="#" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+
+                        <label for="phone">Phone No:</label>
+                        <input type="text" id="phone" name="phone" required>
+                        <label for="date">Email:</label>
+                        <input type="email" name="email" >
+
+
+                        <label for="department">Message:</label>
+                        <textarea id="message" name="message" required rows="3"></textarea>
+
+
+                        <input style="
+    margin: 0;" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 
     <footer>
         <div class="container">
@@ -459,6 +468,7 @@
     <script src="{{ url('/assets/') }}/js/waypoints.min.js"></script>
     <script src="{{ url('/assets/') }}/js/owl.carousel.min.js"></script>
     <script src="{{ url('/assets/') }}/js/main.js"></script>
+
     <style type="text/css">
         a {
             text-decoration: none;
@@ -470,16 +480,6 @@
             font-size: 14px;
         }
     </style>
-
-    @if (Session::has('success'))
-    <script>
-        swal("Success", "{{ Session::get('success') }}", 'success', {
-            buttons: {
-                confirm: "OK",
-            },
-        });
-    </script>
-    @endif
 </body>
 
 </html>

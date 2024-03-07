@@ -4,6 +4,8 @@
 
 
 <!-- How It Work -->
+<section id="brdcrmb-bg-section" class="brdcrmb-bg " style="background-image: url({{url('assets/images/Memorial-Hermann-Header-background.jpg')}});background-blend-mode: multiply;">
+
 
 <section class="faq-section">
     <div class=" book-section">
@@ -12,7 +14,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="book-listing">
                         <h2>DSG Properties</h2>
-                        <img src="{{ config('app.url') }}/assets/img/about-us/about-us-04.jpg" alt="aboutus-03">
+                        <img src="{{ config('app.url') }}assets/img/about-us/about-us-04.jpg" alt="aboutus-03">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -33,10 +35,14 @@
                             best quality & cost
                             competitive Services to customers for their Long Lasting association with us.</p>
                     </div>
+
                 </div>
             </div>
         </div>
-    </div>
-</section>
+				</div>
+
+            </div></div>
+
+	</main>
 
 @endsection

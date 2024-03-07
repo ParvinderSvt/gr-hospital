@@ -20,27 +20,27 @@ Route::get('/', function () {
 Route::get('/about-us', function () {
     return view('about');
 });
-Route::get('/properties', function () {
-    return view('properties');
+Route::get('/mission-vision', function () {
+    return view('mission');
 });
-Route::get('/blog', function () {
-    return view('blog');
+Route::get('/department', function () {
+    return view('department');
 });
-Route::get('/testimonials', function () {
-    return view('testimonials');
+Route::get('/doctors', function () {
+    return view('doctors');
 });
 Route::get('/contact-us', function () {
     return view('contact');
 });
-Route::get('/blog-detail', function () {
-    return view('blog-detail');
+Route::get('/gallery', function () {
+    return view('gallery');
 });
-Route::get('/property-details', function () {
-    return view('property-details');
+Route::get('/faqs', function () {
+    return view('faqs');
 });
-// Route::get('/appointment', function () {
-//     return view('appointment');
-// })->name('appointment');
+Route::get('/appointment', function () {
+    return view('appointment');
+})->name('appointment');
 
 Route::resource('appointment', AppointmentController::class);
 

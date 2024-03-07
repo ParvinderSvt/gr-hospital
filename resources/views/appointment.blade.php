@@ -1,6 +1,28 @@
 @extends('master')
 
 @section('content')
+
+<section id="brdcrmb-bg-section" class="brdcrmb-bg " style="background-image: url({{url('assets/images/Memorial-Hermann-Header-background.jpg')}});background-blend-mode: multiply;">
+
+
+			<div class="brdcmb-and-ttl">
+				<div class="container">
+
+					<div class="brdcmb-wpr d-flx itm-cntr"><!-- Breadcrumb NavXT 6.6.0 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Home." href="{{url('/')}}" class="home"><span property="name">Home</span></a><meta property="position" content="1"></span><span class="brdcmb-arrow"></span><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Patient Care." href="#" class="post post-page"><span property="name">Appointment</span></a></div>
+
+
+
+									<h1 style="    margin-top: 40px;
+    color: #fff;" class="page-ttl d-flx itm-cntr jstfy-cntr">Appointment</h1>
+
+
+											           				</div>
+			</div>
+		</section>
+<main>
+
+		<div class="page-cms  py-5">
 <section class="appt-form mt-5">
     <div class="col-lg-12 col-md-12 col-sm-12 d-flex">
         <div class="col-lg-6 col-md-6 col-sm-6 text-center ">
@@ -64,7 +86,9 @@
             </div>
         </div>
     </div>
+</div>
 
+	</main>
 
     {{-- <script>
         // Open date picker when any part of the date field is clicked
