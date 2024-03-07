@@ -108,7 +108,7 @@
                         <p class="card-text">Heart transplant, Lung transplant, Liver transplant, Kidney transplant,
                             Pancreas
                             transplant, Multi Organ transplant, Bone marrow transplante</p>
-                        <a href="#" class="btn-link">View More </a>
+
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                         </h5>
                         <p class="card-text">MitraClip, TAVR/TAVI, Minimally invasive cabg, Robotic min invasive cabg,
                             Ecmo</p>
-                        <a href="#0" class="btn-link">View More </a>
+
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                         <p class="card-text">Mako Robotic Knee Replacement, Spine Surgery, Excelsius GPS spine Robotic
                             Surgery,
                             VBT</p>
-                        <a href="#0" class="btn-link">View More </a>
+
                     </div>
                 </div>
             </div>
@@ -145,7 +145,7 @@
                                 Surgery</a></h5>
                         <p class="card-text">The precision and dexterity of robotic arms allow for more intricate
                             movements, improved visualization, and enhanced</p>
-                        <a href="#0" class="btn-link">View More </a>
+
                     </div>
                 </div>
             </div>
@@ -156,8 +156,7 @@
                         <h5 class="card-title mt-2"><a href="#0">Diagnostics</a></h5>
                         <p class="card-text">640 Slice CT Angiogram, Brain and Spine Suite, Tru Beam STX with velocity
                         </p>
-                        <a href="#0" class="btn-link">View More
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -169,8 +168,7 @@
                         <p class="card-text">Gastroenterology
                             Gastroenterology focuses on the diagnosis and treatment of diseases of
                         </p>
-                        <a href="#0" class="btn-link">View More
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -183,8 +181,7 @@
                                 Radiology</a></h5>
                         <p class="card-text">In IR, radiologists utilize various imaging modalities such as X-rays,
                             ultrasound, CT scans, and MR</p>
-                        <a href="#0" class="btn-link">View More
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -196,7 +193,7 @@
                         </h5>
                         <p class="card-text">Balance disorders, voice and swallowing disorders, thyroid disorders, and
                             facial plastic</p>
-                        <a href="#0specialities/ent-treatment/" class="btn-link">View More </a>
+
                     </div>
                 </div>
             </div>
@@ -233,7 +230,7 @@
                                 <h5><a href="#">DR. RAJENDRA SINGH</a></h5>
                                 <p class="card-text">GENERAL PHYSICIAN</p>
                                 <p class="card-text">MBBS,MD</p>
-                                <a href="#" class="text-warning">Read More <i class="fa fa-long-arrow-right"></i> </a>
+
                             </div>
                         </div>
                     </div>
@@ -246,7 +243,7 @@
                                 <h5><a href="#">DR. VIBHANSHU JAIN</a></h5>
                                 <p class="card-text">ORTHOPAEDICS</p>
                                 <p class="card-text">MBBS,MS</p>
-                                <a href="#" class="text-warning">Read More <i class="fa fa-long-arrow-right"></i> </a>
+
                             </div>
                         </div>
                     </div>
@@ -259,7 +256,7 @@
                                 <h5><a href="#">DR. SHOBIT GUPTA </a></h5>
                                 <p class="card-text">ENT SURGEON</p>
                                 <p class="card-text">MBBS,MS</p>
-                                <a href="#" class="text-warning">Read More <i class="fa fa-long-arrow-right"></i> </a>
+
                             </div>
                         </div>
                     </div>
@@ -272,7 +269,7 @@
                                 <h5><a href="#">DR. BHAVNA SINGH</a></h5>
                                 <p class="card-text">OBS & GYNAEGOLOGIST</p>
                                 <p class="card-text">MBBS,DGO,ICMCH</p>
-                                <a href="#" class="text-warning">Read More <i class="fa fa-long-arrow-right"></i> </a>
+
                             </div>
                         </div>
                     </div>
@@ -285,7 +282,7 @@
                                 <h5><a href="#">DR. PRASHANT GUPTA</a></h5>
                                 <p class="card-text">GENERAL & PEDIATRIC SURGEON</p>
                                 <p class="card-text">MBBS,MS</p>
-                                <a href="#" class="text-warning">Read More <i class="fa fa-long-arrow-right"></i> </a>
+
                             </div>
                         </div>
                     </div>

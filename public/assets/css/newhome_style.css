@@ -4370,6 +4370,15 @@ button.nav-link.active {
 .ah-hdr .navbar-nav li a {
     padding: 12px;
 }
+.ah-hdr .dropdown-menu li a {
+    padding: 1px 10px;
+}.dropdown-menu.mega{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;min-width: 488px;
+}.ah-hdr .dropdown-menu{
+    background: #f2f2f2;padding: 2px 10px;
+}
 
 .header-bottom-nav {
     background: #ebebeb;
@@ -4432,7 +4441,7 @@ button.nav-link.active {
     right: 12px;
 }
 
-.navbar-nav>li.menu-item-has-children:hover>.sub-menu {
+.navbar-nav>li.menu-item-has-children:hover>.sub-menu.mega {
     column-count: 2;
     column-gap: 10px;
     display: block;
@@ -4618,6 +4627,12 @@ button.nav-link.active {
 }
 
 @media (max-width: 768px) {
+    .dropdown-menu.mega {
+            columns: 1;
+            -webkit-columns: 1;
+            -moz-columns: 1;
+            min-width: 250px;
+        }
     .bannerright {
         display: none;
     }
@@ -4634,7 +4649,7 @@ button.nav-link.active {
     }
 
     .ah-hdr .navbar-nav li a {
-        padding: 12px 2px;
+        padding: 4px 2px;
         display: block;
         width: 100%;
     }
@@ -4738,7 +4753,7 @@ label {
 }
 
 input[type="text"],
-/* input[type="email"], */
+input[type="email"],
 input[type="text"],
 input[type="date"],
 select,
