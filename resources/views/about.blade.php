@@ -12,7 +12,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="book-listing">
                         <h2>DSG Properties</h2>
-                        <img src="{{ config('app.url') }}assets/img/about-us/about-us-04.jpg" alt="aboutus-03">
+                        <img src="{{ config('app.url') }}/assets/img/about-us/about-us-04.jpg" alt="aboutus-03">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">

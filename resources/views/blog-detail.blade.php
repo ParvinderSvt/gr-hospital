@@ -8,7 +8,7 @@
             <div class="col-lg-12">
                 <div class="blog-banner">
                     <div class="blog-banner-img">
-                        <img src="{{ config('app.url') }}assets/img/blog/blog-banner.jpg" alt="img">
+                        <img src="{{ config('app.url') }}/assets/img/blog/blog-banner.jpg" alt="img">
                     </div>
                     <div class="blog-banner-content">
                         <div class="blog-banner-contenthead">
@@ -18,7 +18,7 @@
                         <div class="blog-detailset">
                             <div class="post-author">
                                 <div class="post-author-img">
-                                    <img src="{{ config('app.url') }}assets/img/profiles/avatar-01.jpg" alt="author">
+                                    <img src="{{ config('app.url') }}/assets/img/profiles/avatar-01.jpg" alt="author">
                                 </div>
                                 <a href="javascript:void(0)"> <span> Francis</span></a>
                             </div>

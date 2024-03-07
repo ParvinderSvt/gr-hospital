@@ -8,16 +8,16 @@
     </title>
     <meta name="description"
         content="GR Hospital is the leading multispecialty health care unit with best in class treatments for cancer, knee replacements, liver transplant, heart, diabetes, kidney etc." />
-    <link rel="canonical" href="{{ config('app.url') }}" />
+    <link rel="canonical" href="{{ config('app.url') }}/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title"
         content="GR Hospital | Multispeciality Hospitals in India | GR Hospitals for all Your Healthcare Needs - GR Hospitals" />
     <meta property="og:description"
         content="GR Hospital is the leading multispecialty health care unit with best in class treatments for cancer, knee replacements, liver transplant, heart, diabetes, kidney etc." />
-    <meta property="og:url" content="{{ config('app.url') }}" />
+    <meta property="og:url" content="{{ config('app.url') }}/" />
     <meta property="og:site_name" content="GR Hospital" />
-    <meta property="og:image" content="{{ config('app.url') }}assets/images/gr-fav.png" />
+    <meta property="og:image" content="{{ config('app.url') }}/assets/images/gr-fav.png" />
 
     <meta name="theme-color" content="# 011b37">
     <meta name="msapplication-TileColor" content="# 011b37">
@@ -30,13 +30,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-    <link rel="icon" type="image/x-icon" href="{{ config('app.url') }}assets/images/gr-fav.png" sizes="16x16" />
+    <link rel="icon" type="image/x-icon" href="{{ config('app.url') }}/assets/images/gr-fav.png" sizes="16x16" />
 
-    <link rel="stylesheet" href="{{ config('app.url') }}assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="{{ config('app.url') }}assets/css/newhome_style.css">
+    <link rel="stylesheet" href="{{ config('app.url') }}/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{ config('app.url') }}/assets/css/newhome_style.css">
     <!-- <link rel="stylesheet" href="homestyles.css"> -->
-    <link rel="stylesheet" href="{{ config('app.url') }}assets/assets/fontawesome-free-5.15.4-web/css/all.min.css">
-    <link rel="stylesheet" href="{{ config('app.url') }}assets/assets/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="{{ config('app.url') }}/assets/assets/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="{{ config('app.url') }}/assets/assets/fontawesome-free-6.2.0-web/css/all.min.css">
 
     <!-- Sweet Alert CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
@@ -97,8 +97,8 @@
             <nav class="navbar navbar-expand-lg row my-2" aria-label="Eleventh navbar example">
 
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="{{ config('app.url') }}"><img
-                            src="{{ config('app.url') }}assets/images/sm-logo.jpg" alt="GR Hospital"
+                    <a class="navbar-brand" href="{{ config('app.url') }}/"><img
+                            src="{{ config('app.url') }}/assets/images/sm-logo.jpg" alt="GR Hospital"
                             class="ah_logo"></a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -109,7 +109,7 @@
                         <div class="menu-main-menu-container ms-auto">
                             <ul id="menu-main-menu" class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-5419">
-                                    <a href="{{ config('app.url') }}" aria-haspopup="true"
+                                    <a href="{{ config('app.url') }}/" aria-haspopup="true"
                                         aria-expanded="false">Home</a>
                                 </li>
                                 <li id="tl_centres_of_excellence"
@@ -470,7 +470,7 @@
             font-size: 14px;
         }
     </style>
-    
+
     @if (Session::has('success'))
     <script>
         swal("Success", "{{ Session::get('success') }}", 'success', {

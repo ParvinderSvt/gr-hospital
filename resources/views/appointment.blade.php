@@ -4,7 +4,7 @@
 <section class="appt-form mt-5">
     <div class="col-lg-12 col-md-12 col-sm-12 d-flex">
         <div class="col-lg-6 col-md-6 col-sm-6 text-center ">
-            <img src="{{ config('app.url') }}assets/images/contact-image.jpg" alt="" class="contact-form-img">
+            <img src="{{ config('app.url') }}/assets/images/contact-image.jpg" alt="" class="contact-form-img">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
             <div class="form-box">
