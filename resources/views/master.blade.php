@@ -43,13 +43,13 @@
 
 
     <script type="application/ld+json">
-	{
+        {
 	  "@context": "https://schema.org",
 	  "@type": "WebSite",
 	  "name": "grhospital",
 	  "url": "https://www.grhospital.com/"
 	}
-	</script>
+    </script>
 
 
 </head>
@@ -62,19 +62,15 @@
             <nav>
                 <div class="container d-flex flex-wrap">
                     <ul class="nav">
-                        <li class="nav-item"><a href="" rel="nofollow" target="_blank"
-                                class="nav-link link-dark px-2" title="Follow Us On Facebook"><i
-                                    class="fa-brands fa-facebook-f"></i> </a></li>
-                        <li class="nav-item"><a href="" rel="nofollow" target="_blank"
-                                class="nav-link link-dark px-2" title="Follow Us On Instagram"><i
-                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li class="nav-item"><a href="" rel="nofollow" target="_blank" class="nav-link link-dark px-2"
+                                title="Follow Us On Facebook"><i class="fa-brands fa-facebook-f"></i> </a></li>
+                        <li class="nav-item"><a href="" rel="nofollow" target="_blank" class="nav-link link-dark px-2"
+                                title="Follow Us On Instagram"><i class="fa-brands fa-instagram"></i></a></li>
 
-                        <li class="nav-item"><a href="" rel="nofollow" target="_blank"
-                                class="nav-link link-dark px-2" title="Follow Us On YouTube"><i
-                                    class="fa-brands fa-youtube"></i></a></li>
-                        <li class="nav-item"><a href="" rel="nofollow" target="_blank"
-                                class="nav-link link-dark px-2" title="Follow Us On Linkedin"><i
-                                    class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="nav-item"><a href="" rel="nofollow" target="_blank" class="nav-link link-dark px-2"
+                                title="Follow Us On YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li class="nav-item"><a href="" rel="nofollow" target="_blank" class="nav-link link-dark px-2"
+                                title="Follow Us On Linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
                     </ul>
 
 
@@ -97,10 +93,11 @@
             <nav class="navbar navbar-expand-lg row my-2" aria-label="Eleventh navbar example">
 
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="{{ config('app.url') }}assets/images/sm-logo.jpg"
-                            alt="GR Hospital" class="ah_logo"></a> <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand" href="{{ config('app.url') }}"><img
+                            src="{{ config('app.url') }}assets/images/sm-logo.jpg" alt="GR Hospital"
+                            class="ah_logo"></a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -208,51 +205,45 @@
                                             <a href="#0">Anesthetic</a>
                                         </li>
                                     </ul>
-                                    <li>
+                                <li>
 
-                                        <ul class="sub-menu">
-                                            <li id="Dermatology"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                                <a href="#0">PATHOLOGIST</a>
-                                            </li>
-                                            <li id="Dermatology"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                                <a href="#0">GASTROLOGIST</a>
-                                            </li>
-                                            <li id="Dermatology"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                                <a href="#0">PLASTIC SURGEON</a>
-                                            </li>
-                                            <li id="Dermatology"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                                <a href="#0">CHILD SPECIALIST</a>
-                                            </li>
-                                            <li id="Dermatology"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                                <a href="#0">UROLOGIST</a>
-                                            </li>
-                                            <li id="Dermatology"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                                <a href="#0">GENERAL PHYSCIAN</a>
-                                            </li>
-                                            <li id="Dermatology"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                                <a href="#0">ANESTHETIC</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    <ul class="sub-menu">
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">PATHOLOGIST</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">GASTROLOGIST</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">PLASTIC SURGEON</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">CHILD SPECIALIST</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">UROLOGIST</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">GENERAL PHYSCIAN</a>
+                                        </li>
+                                        <li id="Dermatology"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
+                                            <a href="#0">ANESTHETIC</a>
+                                        </li>
+                                    </ul>
+                                </li>
 
                                 </li>
                                 <li id="tl_international_patient"
                                     class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-3763">
                                     <a rel="noopener" href="#connect" aria-haspopup="true"
                                         aria-expanded="false">Doctors</a>
-
-                                </li>
-                                <li id="tl_academics_research"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-5110">
-                                    <a href="#0" aria-haspopup="true" aria-expanded="false">Insurance
-                                        Partners</a>
 
                                 </li>
                                 <li id="tl_hospitals"
@@ -264,8 +255,9 @@
                                     <a href="#0" aria-haspopup="true" aria-expanded="false">FAQ’s</a>
                                 </li>
                                 <li id="tl_contact_us"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3767">
-                                    <a href="#" aria-haspopup="true" aria-expanded="false">Contact
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3767">
+                                    <a href="{{ route('appointment') }}" aria-haspopup="true"
+                                        aria-expanded="false">Contact
                                         Us</a>
                                 </li>
 
@@ -430,19 +422,15 @@
                 </div>
                 <div class="col-md-3">
                     <ul class="nav nav-social">
-                        <li class="nav-item"><a href="#" rel="nofollow" target="_blank"
-                                class="nav-link link-dark px-2" title="Follow Us On Facebook"><i
-                                    class="fa-brands fa-facebook-f"></i> </a></li>
-                        <li class="nav-item"><a href="#" rel="nofollow" target="_blank"
-                                class="nav-link link-dark px-2" title="Follow Us On Instagram"><i
-                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li class="nav-item"><a href="#" rel="nofollow" target="_blank" class="nav-link link-dark px-2"
+                                title="Follow Us On Facebook"><i class="fa-brands fa-facebook-f"></i> </a></li>
+                        <li class="nav-item"><a href="#" rel="nofollow" target="_blank" class="nav-link link-dark px-2"
+                                title="Follow Us On Instagram"><i class="fa-brands fa-instagram"></i></a></li>
 
-                        <li class="nav-item"><a href="#" rel="nofollow" target="_blank"
-                                class="nav-link link-dark px-2" title="Follow Us On YouTube"><i
-                                    class="fa-brands fa-youtube"></i></a></li>
-                        <li class="nav-item"><a href="#" rel="nofollow" target="_blank"
-                                class="nav-link link-dark px-2" title="Follow Us On Linkedin"><i
-                                    class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="nav-item"><a href="#" rel="nofollow" target="_blank" class="nav-link link-dark px-2"
+                                title="Follow Us On YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li class="nav-item"><a href="#" rel="nofollow" target="_blank" class="nav-link link-dark px-2"
+                                title="Follow Us On Linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">

@@ -40,3 +40,8 @@ Route::get('/property-details', function () {
 Route::get('/appointment', function () {
     return view('appointment');
 })->name('appointment');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
