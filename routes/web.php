@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\EnquiryController;
+use App\Models\Appointment;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -42,7 +43,7 @@ Route::get('/faqs', function () {
 
 Route::post('/enquiry',EnquiryController::class,'store')->name('enquiry.store');
 
-Route::resource('appointment', AppointmentController::class);
+Route::resource('appointment',AppointmentController::class);
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

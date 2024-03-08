@@ -1,48 +1,67 @@
 @extends('master')
 
 @section('content')
+    <!-- How It Work -->
+    <section id="brdcrmb-bg-section" class="brdcrmb-bg "
+        style="background-image: url({{ url('assets/images/Memorial-Hermann-Header-background.jpg') }});background-blend-mode: multiply;">
 
 
-<!-- How It Work -->
-<section id="brdcrmb-bg-section" class="brdcrmb-bg " style="background-image: url({{url('assets/images/Memorial-Hermann-Header-background.jpg')}});background-blend-mode: multiply;">
-
-
-<section class="faq-section">
-    <div class=" book-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="book-listing">
-                        <h2>DSG Properties</h2>
-                        <img src="{{ config('app.url') }}assets/img/about-us/about-us-04.jpg" alt="aboutus-03">
-                    </div>
+        <div class="brdcmb-and-ttl">
+            <div class="container">
+                <div class="brdcmb-wpr d-flx itm-cntr"><!-- Breadcrumb NavXT 6.6.0 -->
+                    <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Home."
+                            href="{{ url('/') }}" class="home"><span property="name">Home</span></a>
+                        <meta property="position" content="1">
+                    </span><span class="brdcmb-arrow"></span><span property="itemListElement" typeof="ListItem"><a
+                            property="item" typeof="WebPage" title="Go to Mission And Vision." href="{{ url('/about-us') }}"
+                            class="post post-page"><span property="name">About Us</span></a>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="book-content">
-                        <p>Your One-Stop Real Estate Destination
-                            We’ve offerings tailor-made to serve all your needs- Residential, Commercial, and
-                            Industrial.
-                            Find the best property
-                            for
-                            you that comes under your budget and assures ROI. Reach out to us for all support. </p>
-                        <p>We have grown with the growth of the industry over the years and have seen the tortuous path
-                            which has led us to the
-                            apex of success in the present scenario.</p>
-                        <p>Our strength is characterized by quality, innovation and effectiveness which are delivered
-                            with
-                            enthusiasm and
-                            determination. Our aim is to be amongst top ranking Real Estate agency by providing with our
-                            best quality & cost
-                            competitive Services to customers for their Long Lasting association with us.</p>
-                    </div>
-
-                </div>
+                <h1 style="margin-top: 40px;color: #fff;" class="page-ttl d-flx itm-cntr jstfy-cntr">About Us
+                </h1>
             </div>
         </div>
-				</div>
+    </section>
 
-            </div></div>
+    <main>
+        <div class="page-cms  py-5">
+            <div class="container d-flx">
 
-	</main>
+                <div class="page-cntn-area w-100">
+                    <div class="row g-lg-5 g-3">
+                          <div class="col-md-5">
+                            <div id="hospital-loc-holder" class="location-info ms-lg-auto">
+                                <div class="card border-0 rounded-4 ah_shadow">
+                                    <img src="{{ url('assets/images/Vision-Mission.png') }}"
+                                        class="card-img-top p-2 rounded-4 img-fluid" alt="GR Hospital">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="page-sub-ttl">GR Hospital - Mission And Vision</h3>
+                            <h3 class="sub-ttl">Mission</h3>
+                            <p>Our mission is to provide exceptional, compassionate, and comprehensive healthcare services
+                                to our community. We are dedicated to delivering high-quality, patient-centered care that
+                                promotes wellness, restores health, and enhances the quality of life for all those we serve.
+                                We strive to uphold the highest standards of medical excellence, professionalism, and
+                                ethical conduct in every aspect of our practice.
+                            </p>
 
+                            <h3 class="sub-ttl mt-5">Vision</h3>
+                            <p>Our vision is to be the premier healthcare destination in our region, recognized for our
+                                commitment to excellence, innovation, and superior patient outcomes. We aspire to be a
+                                center of excellence where medical expertise, advanced technology, and compassionate care
+                                converge to transform lives and inspire hope. Through collaboration, education, and
+                                innovation, we aim to set new standards of excellence in healthcare delivery, while
+                                continuously adapting to meet the evolving needs of our community. Together, we envision a
+                                healthier, happier future for all.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
 @endsection

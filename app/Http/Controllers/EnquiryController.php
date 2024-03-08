@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 
 class EnquiryController extends Controller
 {
+    public function __invoke()
+    {
+        return true;
+    }
     /**
      * Display a listing of the resource.
      */
