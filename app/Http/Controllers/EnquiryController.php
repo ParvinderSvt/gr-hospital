@@ -28,7 +28,7 @@ class EnquiryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return $request->post();
     }
 
     /**

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AppointmentController;
+use App\Http\Controllers\EnquiryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,7 +30,7 @@ Route::get('/department', function () {
 Route::get('/doctors', function () {
     return view('doctors');
 });
-Route::get('/contact-us', function () {
+Route::get('/contact', function () {
     return view('contact');
 });
 Route::get('/gallery', function () {
@@ -38,9 +39,8 @@ Route::get('/gallery', function () {
 Route::get('/faqs', function () {
     return view('faqs');
 });
-Route::get('/appointment', function () {
-    return view('appointment');
-})->name('appointment');
+
+Route::post('/enquiry',EnquiryController::class,'store')->name('enquiry.store');
 
 Route::resource('appointment', AppointmentController::class);
 
