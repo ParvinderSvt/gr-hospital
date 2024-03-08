@@ -12,7 +12,9 @@ class DepartmentController extends Controller
      */
     public function index()
     {
-        //
+        // $departments = Department::all();
+        // return view('department',compact('departments'));
+        return view('department');
     }
 
     /**
