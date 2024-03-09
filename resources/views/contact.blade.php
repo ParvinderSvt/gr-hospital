@@ -20,8 +20,7 @@
 
 
 
-            <h1 style="    margin-top: 40px;
-    color: #fff;" class="page-ttl d-flx itm-cntr jstfy-cntr">Contact Us</h1>
+            <h1 style="margin-top: 40px;color: #fff;" class="page-ttl d-flx itm-cntr jstfy-cntr">Contact Us</h1>
 
 
         </div>
@@ -44,7 +43,8 @@
             <div class="col-12 col-lg-9">
                 <div class="bg-white border rounded shadow-sm overflow-hidden p-3">
 
-                    <form action="{{ route('enquiry.store') }}" method="post">
+                    <form action="{{ route('enquiry.store') }}" method="POST">
+                        @csrf
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
 

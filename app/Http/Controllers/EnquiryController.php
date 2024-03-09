@@ -32,7 +32,8 @@ class EnquiryController extends Controller
      */
     public function store(Request $request)
     {
-        return $request->post();
+        Enquiry::create($request->post());
+        return redirect()->back()->with('success', 'Your Enquiry has been successfully processed !!');
     }
 
     /**

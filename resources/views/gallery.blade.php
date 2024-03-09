@@ -24,8 +24,7 @@
 
 
 
-            <h1 style="    margin-top: 40px;
-    color: #fff;" class="page-ttl d-flx itm-cntr jstfy-cntr mb-3">Our Gallery</h1>
+            <h1 style="margin-top: 40px;color: #fff;" class="page-ttl d-flx itm-cntr jstfy-cntr mb-3">Our Gallery</h1>
 
 
         </div>

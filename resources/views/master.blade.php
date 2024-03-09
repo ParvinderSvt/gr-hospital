@@ -130,17 +130,24 @@
                                     </ul>
                                 </li>
 
+                                <?php
+                                $departments = App\Models\Department::all();
+                                ?>
+
                                 <li class="nav-item dropdown">
                                     <a class=" dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Department
                                     </a>
                                     <ul class="dropdown-menu mega" aria-labelledby="navbarDropdownMenuLink">
+                                        @foreach ($departments as $department)
                                         <li id="tl_diseases_and_conditions"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27788">
-                                            <a href="{{url('/department')}}">General Physician</a>
+                                            <a href="{{  route('department.show',$department->id) }}">{{
+                                                $department->title }}</a>
                                         </li>
-                                        <li id="Eye"
+                                        @endforeach
+                                        {{-- <li id="Eye"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275788">
                                             <a href="#0">Orthopaedics</a>
                                         </li>
@@ -203,7 +210,7 @@
                                         <li id="Dermatology"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
                                             <a href="#0">Anesthetic</a>
-                                        </li>
+                                        </li> --}}
                                     </ul>
                                 </li>
 
@@ -284,7 +291,8 @@
                     <div class="">
                         <div class="container">
 
-                            <form action="#" method="post">
+                            <form action="{{ route('enquiry.store') }}" method="POST">
+                                @csrf
                                 <label for="name">Name:</label>
                                 <input type="text" id="name" name="name" required>
 
@@ -299,8 +307,7 @@
                                 <textarea id="message" name="message" required rows="3"></textarea>
 
 
-                                <input style="
-    margin: 0;" type="submit" value="Submit">
+                                <input style="margin: 0;" type="submit" value="Submit">
                             </form>
                         </div>
                     </div>
@@ -483,7 +490,15 @@
             font-size: 14px;
         }
     </style>
-
+    @if (Session::has('success'))
+    <script>
+        swal("Success", "{{ Session::get('success') }}", 'success', {
+        buttons: {
+            confirm: "OK",
+        },
+    });
+    </script>
+    @endif
     @yield('script')
 </body>
 

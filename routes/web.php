@@ -6,7 +6,6 @@ use App\Http\Controllers\DoctorController;
 use App\Http\Controllers\EnquiryController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\IndexController;
-use App\Models\Appointment;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -51,7 +50,8 @@ Route::get('/faqs', function () {
 
 Route::resource('gallery', GalleryController::class);
 
-Route::post('/enquiry',EnquiryController::class,'store')->name('enquiry.store');
+Route::resource('/enquiry',EnquiryController::class);
+// Route::post('/enquiry-store',EnquiryController::class,'store')->name('enquiry.store');
 
 Route::resource('appointment',AppointmentController::class);
 

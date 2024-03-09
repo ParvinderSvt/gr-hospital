@@ -36,9 +36,11 @@ class DepartmentController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Department $department)
+    public function show($id)
     {
-        //
+
+        $department = Department::where('id', $id)->first();
+        return view('department', compact('department'));
     }
 
     /**
