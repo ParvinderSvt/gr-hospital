@@ -36,8 +36,9 @@
     <link rel="stylesheet" href="{{ config('app.url') }}/assets/css/newhome_style.css">
     <link rel="stylesheet" href="{{ config('app.url') }}/assets/css/simple-lightbox.css">
     <!-- <link rel="stylesheet" href="homestyles.css"> -->
-    <link rel="stylesheet" href="{{ config('app.url') }}assets/assets/fontawesome-free-5.15.4-web/css/all.min.css">
-    <link rel="stylesheet" href="{{ config('app.url') }}assets/assets/fontawesome-free-6.2.0-web/css/all.min.css">
+    {{-- <link rel="stylesheet" href="{{ config('app.url') }}/assets/assets/fontawesome-free-5.15.4-web/css/all.min.css"> --}}
+
+    <link rel="stylesheet" href="{{ config('app.url') }}/assets/assets/fontawesome-free-6.2.0-web/css/all.min.css">
 
     <!-- Sweet Alert CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
@@ -147,70 +148,6 @@
                                                 $department->title }}</a>
                                         </li>
                                         @endforeach
-                                        {{-- <li id="Eye"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275788">
-                                            <a href="#0">Orthopaedics</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">Ent Surgeon</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">Obs & Gynaecologist</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">General & Pediatric Surgeon</a>
-                                        </li>
-                                        <li id="tl_diseases_and_conditions"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27788">
-                                            <a href="#0">Ophthalmologist</a>
-                                        </li>
-                                        <li id="Eye"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275788">
-                                            <a href="#0">Neuro Surgeon</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">Maxillofacial Surgeon</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">Cardiologist</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">Radiologist</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">Pathologist</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">Gastrologist</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">Plastic Surgeon</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">Child Specialist</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">Urologist</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">General Physician</a>
-                                        </li>
-                                        <li id="Dermatology"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-277848">
-                                            <a href="#0">Anesthetic</a>
-                                        </li> --}}
                                     </ul>
                                 </li>
 
@@ -316,7 +253,9 @@
             </div>
         </div>
     </div>
-
+    <?php
+    $latest_departments = App\Models\Department::latest()->take(5)->get();
+    ?>
     <footer>
         <div class="container">
             <div class="row gx-5">
@@ -330,60 +269,37 @@
                     <p></p>
                 </div>
                 <div class="col-md-9">
-                    <div class="row row-cols-lg-5 row-cols-2">
+                    <div class="row row-cols-lg-3 row-cols-2">
                         <div class="col">
-                            <h5>Patient Care</h5>
+                            <h5>Deapartments</h5>
                             <ul class="list-unstyled ft-links">
-                                <li><a href="#" target="_blank">Find A Doctor</a> </li>
-                                <li><a href="#">Medical Services </a> </li>
-                                <li><a href="#">Patient Testimonials </a>
-                                </li>
-                                <li><a href="#">Value Added Services </a> </li>
-                                <li><a href="#" target="_blank">Pay Online</a> </li>
-                                <li><a href="#"> GR Surgery</a> </li>
-                            </ul>
-                            <h5>International Patients</h5>
-                            <ul class="list-unstyled ft-links">
-                                <li><a href="#">About GR</a> </li>
-                                <li><a href="#">Hospitals</a> </li>
+                                @foreach ($latest_departments as $item)
+                                <li><a href="{{  route('department.show',$department->id) }}" target="_blank">{{
+                                        $item->title }}</a> </li>
+                                @endforeach
                             </ul>
 
                         </div>
                         <div class="col">
-                            <h5>Centres Of Excellence</h5>
+                            <h5>Quick Links</h5>
                             <ul class="list-unstyled">
-                                <li><a href="#">Orthopaedics</a> </li>
-                                <li><a href="#">Nephrology &amp; Urology </a> </li>
-                                <li><a href="#">Bariatric Surgery</a> </li>
-                                <li><a href="#">Orthopaedics</a> </li>
-                                <li><a href="#">Nephrology &amp; Urology </a> </li>
-                                <li><a href="#">Bariatric Surgery</a> </li>
-                                <li><a href="#">Orthopaedics</a> </li>
-                                <li><a href="#">Nephrology &amp; Urology </a> </li>
-                                <li><a href="#">Bariatric Surgery</a> </li>
+                                <li><a href="{{ config('app.url') }}/">Home</a> </li>
+                                <li><a href="{{url('/doctors')}}">Doctors </a> </li>
+                                <li><a href="{{url('/gallery')}}">gallery</a> </li>
+                                <li><a href="{{url('/faqs')}}">FAQ's</a> </li>
                             </ul>
                         </div>
                         <div class="col">
-                            <h5>Medical Procedures</h5>
+                            <h5>Contact Us</h5>
                             <ul class="list-unstyled">
-                                <li><a href="#" target="_blank">Proton Therapy For
-                                        Cancer Treatment</a> </li>
-                                <li><a href="#">Cosmetic And Plastic
-                                        Surgery</a> </li>
-                                <li><a href="#">Bone Marrow
-                                        Transplant </a>
+                                <li><a href="{{url('/contact')}}" target="_blank">Request a Callback</a> </li>
+                                <li><a href="{{ route('appointment.index') }}">Book Appointment</a> </li>
+                                <li><a href="{{url('/contact')}}">Get Health Checkup</a>
                                 </li>
-                                <li><a href="#">Oral &amp; Maxillofacial
-                                        Surgery </a> </li>
-                                <li><a href="#">Hand MicroSurgery</a> </li>
-                                <li><a href="#">G Scan – Open
-                                        Standing
-                                        MRI Scan</a> </li>
-
                             </ul>
 
                         </div>
-                        <div class="col">
+                        {{-- <div class="col">
                             <h5>Corporate</h5>
                             <ul class="list-unstyled">
                                 <li><a href="#">Company Overview</a> </li>
@@ -423,7 +339,7 @@
 
                             </ul>
                         </div>
-                        <p></p>
+                        <p></p> --}}
                     </div>
                     <p></p>
                 </div>
@@ -435,7 +351,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <div class="pt-2">© Copyright 2024. GR Hospital. All Rights Reserved.</div>
+                    <div class="pt-2">© Copyright 2024. Designed and Developed by <a href="https://svtindia.in/"
+                            style="color: aliceblue;">SVT
+                            India.</a></div>
                 </div>
                 <div class="col-md-3">
                     <ul class="nav nav-social">
@@ -456,9 +374,9 @@
 
                         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Privacy
                                 policy</a> </li>
-                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Disclaimer</a>
-                        </li>
-                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2 border-0">Contact</a>
+                        {{-- <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Disclaimer</a>
+                        </li> --}}
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2 border-0">Disclaimer</a>
                         </li>
 
                     </ul>
