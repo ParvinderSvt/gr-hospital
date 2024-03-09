@@ -36,7 +36,9 @@
     <link rel="stylesheet" href="{{ config('app.url') }}/assets/css/newhome_style.css">
     <link rel="stylesheet" href="{{ config('app.url') }}/assets/css/simple-lightbox.css">
     <!-- <link rel="stylesheet" href="homestyles.css"> -->
-    {{-- <link rel="stylesheet" href="{{ config('app.url') }}/assets/assets/fontawesome-free-5.15.4-web/css/all.min.css"> --}}
+    {{--
+    <link rel="stylesheet" href="{{ config('app.url') }}/assets/assets/fontawesome-free-5.15.4-web/css/all.min.css">
+    --}}
 
     <link rel="stylesheet" href="{{ config('app.url') }}/assets/assets/fontawesome-free-6.2.0-web/css/all.min.css">
 
@@ -82,12 +84,13 @@
 
                     <ul class="nav  d-none d-sm-flex ms-auto">
 
-                        <li class="nav-item"><a href="tel:0562 325 9291" class="nav-link link-dark px-2">Emergency:0562
+                        {{-- <li class="nav-item"><a href="tel:0562 325 9291"
+                                class="nav-link link-dark px-2">Emergency:0562
                                 325 9291</a> </li>
                         <li class="nav-item"><a href="disclaimer/index.html"
-                                class="nav-link link-dark px-2">Disclaimer</a></li>
-                        <li class="nav-item "><a href="contact-us/index.html"
-                                class="nav-link link-dark px-2 border-0">Contact</a></li>
+                                class="nav-link link-dark px-2">Disclaimer</a></li> --}}
+                        <li class="nav-item "><a href="{{url('/contact')}}"
+                                class="nav-link link-dark px-2 border-0">Emergency:0562325 9291</a></li>
 
                     </ul>
                 </div>
@@ -384,9 +387,6 @@
             </div>
         </div>
     </section>
-
-
-
 
     <script src="{{ url('/assets/') }}/js/jquery-3.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
