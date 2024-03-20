@@ -62,7 +62,7 @@ h5 {
 }
 
 .ah_logo {
-    max-width: 272px;
+    max-width: 350px;
 }
 
 .btn {
@@ -4370,14 +4370,21 @@ button.nav-link.active {
 .ah-hdr .navbar-nav li a {
     padding: 12px;
 }
+
 .ah-hdr .dropdown-menu li a {
     padding: 1px 10px;
-}.dropdown-menu.mega{
+}
+
+.dropdown-menu.mega {
     columns: 2;
     -webkit-columns: 2;
-    -moz-columns: 2;min-width: 488px;
-}.ah-hdr .dropdown-menu{
-    background: #f2f2f2;padding: 2px 10px;
+    -moz-columns: 2;
+    min-width: 488px;
+}
+
+.ah-hdr .dropdown-menu {
+    background: #f2f2f2;
+    padding: 2px 10px;
 }
 
 .header-bottom-nav {
@@ -4628,11 +4635,12 @@ button.nav-link.active {
 
 @media (max-width: 768px) {
     .dropdown-menu.mega {
-            columns: 1;
-            -webkit-columns: 1;
-            -moz-columns: 1;
-            min-width: 250px;
-        }
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        min-width: 250px;
+    }
+
     .bannerright {
         display: none;
     }

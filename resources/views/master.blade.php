@@ -144,6 +144,12 @@
                                 $departments = App\Models\Department::all();
                                 ?>
 
+                                <li id="tl_corporate"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5419">
+                                    <a href="{{url('/#services')}}" aria-haspopup=" true" aria-expanded="false">Our
+                                        Services</a>
+                                </li>
+
                                 <li class="nav-item dropdown">
                                     <a class=" dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
