@@ -30,7 +30,7 @@
         </div>
     </div>
 </section>
-<main style="    background: aliceblue;">
+<main style="background: aliceblue;">
 
     <div class="page-cms  py-5">
         <div class="container d-flx">

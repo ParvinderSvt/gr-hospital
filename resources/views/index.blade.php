@@ -181,10 +181,9 @@
             <div class="col-md-7">
                 {{-- <h4 class="sec_title">Welcome</h4> --}}
                 <h2>G.R. Hospital & Research Centre</h2>
-                <h5 class="card-title mb-3 fw-bold">We Provide Most Professional Service
-                    Since 1984</h5>
+                <h5 class="card-title mb-3 fw-bold"></h5>
 
-                <p>G.R. Hospital & Research Centre is a multi super facility Hospital equipped to address a wide range
+                {{-- <p>G.R. Hospital & Research Centre is a multi super facility Hospital equipped to address a wide range
                     of medical needs
                     across various disciplines. With specialized departments including cardiology, neurology,
                     orthopedics, oncology, and
@@ -196,8 +195,20 @@
                     recovery. Multispecialty
                     hospitals often serve as hubs for medical research, innovation, and education, striving to improve
                     healthcare outcomes
-                    and enhance the overall well-being of the community they serve.</p>
-                <a href="#" class="text-warning text-decoration-none">Read More <i
+                    and enhance the overall well-being of the community they serve.</p> --}}
+                    <p>Welcome to GR Hospital, a beacon of healthcare excellence since 2007, situated at Baroli Aheer
+                        Shamsabad Road, Kaveri
+                        Vihar Phase II, Sri Nikunj Colony, Agra, Uttar Pradesh 282001. Our commitment to providing
+                        compassionate and
+                        comprehensive medical services has made us a trusted name in the community.</p>
+
+                        <p>At GR Hospital, we believe in a patient-centric approach, ensuring that each individual receives
+                        personalized care
+                        tailored to their unique needs. Our state-of-the-art facility is equipped with advanced medical
+                        technology and staffed
+                        by a team of highly skilled healthcare professionals dedicated to delivering the highest
+                        standards of medical care.</p>
+                <a href="{{ url('/about-us') }}" class="text-warning text-decoration-none">Read More <i
                         class="fa fa-long-arrow-right ps-2 small"></i> </a>
 
             </div>
