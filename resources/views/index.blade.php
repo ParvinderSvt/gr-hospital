@@ -224,7 +224,7 @@
             </div>
         </div>
 </section>
-<section class="ah_location_sec">
+{{-- <section class="ah_location_sec">
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-md-12">
@@ -342,8 +342,195 @@
         <!-- End COEs -->
 
     </div>
-</section>
+</section> --}}
+<section id="services" class="whatnew_sec">
+    <div class="container">
+        <div class="row text-center justify-content-center">
+            <div class="col-md-8">
+                <h2 class="mb-4">Our Services</h2>
+            </div>
+        </div>
 
+        <div class="gtco-testimonials">
+            <div class="owl-carousel owl-carousel1 owl-theme">
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\gremergency.png" alt="">
+                        <div class="card-body">
+                            <h5>24X7 Hours Emergency <br />
+
+                            </h5>
+                            <p class="card-text">Rapid care, round-the-clock service,
+                                lifesaving treatments, immediate response, critical care
+                                expertise.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\icu,ccu,nicu.jpg" alt="">
+                        <div class="card-body">
+                            <h5>NICU,ICU,CCU<br />
+
+                            </h5>
+                            <p class="card-text">NICU for newborns, ICU for critical patients, CCU for cardiac care;
+                                comprehensive lifesaving care.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\Cathlab1.jpg" alt="">
+                        <div class="card-body">
+                            <h5>CATH LAB<br />
+
+                            </h5>
+                            <p class="card-text">Advanced heart care through diagnostic imaging and interventional
+                                procedures for cardiovascular conditions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\ct-scan-15e991.gif"
+                            alt="">
+                        <div class="card-body">
+                            <h5>CT SCAN<br />
+
+                            </h5>
+                            <p class="card-text">High-resolution imaging for detailed examination of internal
+                                structures, aiding diagnosis and treatment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\xray.jpeg" alt="">
+                        <div class="card-body">
+                            <h5>ALL X-RAY<br />
+
+                            </h5>
+                            <p class="card-text">Quick and non-invasive imaging method to visualize bones, tissues, and
+                                organs for diagnostic purposes..</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\ultra.jpg" alt="">
+                        <div class="card-body">
+                            <h5>ULTRA SOUND<br />
+
+                            </h5>
+                            <p class="card-text">Non-invasive imaging using sound waves to visualize internal organs,
+                                aiding diagnosis and monitoring.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\echo.jpeg" alt="">
+                        <div class="card-body">
+                            <h5>ECHO<br />
+
+                            </h5>
+                            <p class="card-text">Non-invasive ultrasound imaging of the heart's structure and function
+                                for diagnostic assessment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\ecg.jpg" alt="">
+                        <div class="card-body">
+                            <h5>ECG,TMT<br />
+
+                            </h5>
+                            <p class="card-text">ECG: Records heart's electrical activity, aiding in diagnosing cardiac
+                                conditions. TMT: Stress test assesses heart
+                                function under exertion.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\colour.jpeg" alt="">
+                        <div class="card-body">
+                            <h5>COLOUR DOPPLER<br />
+
+                            </h5>
+                            <p class="card-text">Ultrasound technique visualizing blood flow, aiding diagnosis of
+                                vascular conditions like DVT or arterial stenosis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\bankblood.png" alt="">
+                        <div class="card-body">
+                            <h5>BLOOD BANK<br />
+
+                            </h5>
+                            <p class="card-text">Facility for collecting, testing, storing, and distributing blood and
+                                blood products for transfusions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\rapidology.jpg" alt="">
+                        <div class="card-body">
+                            <h5>RAPIDOLOGY<br />
+
+                            </h5>
+                            <p class="card-text">An approach or field emphasizing speed, efficiency, and quick outcomes
+                                in various disciplines or industries.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\pathology.jpg" alt="">
+                        <div class="card-body">
+                            <h5>PATHOLOGY<br />
+
+                            </h5>
+                            <p class="card-text">Medical specialty studying diseases, examining tissues, fluids, and
+                                organs to diagnose conditions and guide treatment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\Anaesthesia-2.jpg"
+                            alt="">
+                        <div class="card-body">
+                            <h5>ANAESTHESIA<br />
+
+                            </h5>
+                            <p class="card-text">Administered to induce temporary loss of sensation or consciousness
+                                during medical procedures.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\phyiotherapy.jpeg"
+                            alt="">
+                        <div class="card-body">
+                            <h5>PHYSIOTHERPY<br />
+
+                            </h5>
+                            <p class="card-text">Treatment using exercises, massage, and other techniques to improve
+                                movement and manage pain.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\dialysis.jpg"
+                            alt="">
+                        <div class="card-body">
+                            <h5>DIALYSIS<br />
+
+                            </h5>
+                            <p class="card-text">Medical procedure purifying blood in patients with kidney failure, restoring balance and removing toxins.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+</section>
 <section id="connect" class="whatnew_sec">
     <div class="container">
         <div class="row text-center justify-content-center">
@@ -408,7 +595,7 @@
                         <i class="fa-solid fa-info ps-2 "></i>
                         <h4>Advanced Technology</h4>
                         <div>GR Hospital invest in advanced medical equipment and technology, including diagnostic
-                            imaging, robotic surgery...</div>
+                            imaging...</div>
                     </div>
                     <div class="col-md-6">
                         <i class="fa-solid fa-tasks ps-2 "></i>
@@ -535,7 +722,7 @@
 </section> --}}
 
 {{-- Our Services Section --}}
-<section id="services" class="whatnew_sec">
+{{-- <section id="services" class="whatnew_sec">
     <div class="container">
         <div class="row text-center justify-content-center">
             <div class="col-md-8">
@@ -549,7 +736,7 @@
                     <div class="card text-center"><img class="card-img-top" src="assets\images\gremergency.png" alt="">
                         <div class="card-body">
                             <h5>24X7 Hours Emergency <br />
-                                {{-- <span> Project Manager </span> --}}
+
                             </h5>
                             <p class="card-text">Rapid care, round-the-clock service,
                                 lifesaving treatments, immediate response, critical care
@@ -561,44 +748,19 @@
                     <div class="card text-center"><img class="card-img-top" src="assets\images\icu,ccu,nicu.jpg" alt="">
                         <div class="card-body">
                             <h5>NICU,ICU,CCU<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">NICU for newborns, ICU for critical patients, CCU for cardiac care;
                                 comprehensive lifesaving care.</p>
                         </div>
                     </div>
                 </div>
-                {{-- <div>
-                    <div class="card text-center"><img class="card-img-top"
-                            src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302"
-                            alt="">
-                        <div class="card-body">
-                            <h5>ICU<br />
-                                {{-- <span> Project Manager </span> --}}
-                                {{-- </h5>
-                            <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                                impedit quo minus id quod maxime placeat ” </p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card text-center"><img class="card-img-top"
-                            src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303"
-                            alt="">
-                        <div class="card-body">
-                            <h5>CCU<br />
-                                {{-- <span> Project Manager </span> --}}
-                                {{-- </h5>
-                            <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                                impedit quo minus id quod maxime placeat ” </p>
-                        </div>
-                    </div>
-                </div> --}}
+
                 <div>
                     <div class="card text-center"><img class="card-img-top" src="assets\images\Cathlab1.jpg" alt="">
                         <div class="card-body">
                             <h5>CATH LAB<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">Advanced heart care through diagnostic imaging and interventional
                                 procedures for cardiovascular conditions.</p>
@@ -610,7 +772,7 @@
                             alt="">
                         <div class="card-body">
                             <h5>CT SCAN<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">High-resolution imaging for detailed examination of internal
                                 structures, aiding diagnosis and treatment.</p>
@@ -621,7 +783,7 @@
                     <div class="card text-center"><img class="card-img-top" src="assets\images\xray.jpeg" alt="">
                         <div class="card-body">
                             <h5>ALL X-RAY<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">Quick and non-invasive imaging method to visualize bones, tissues, and
                                 organs for diagnostic purposes..</p>
@@ -632,7 +794,7 @@
                     <div class="card text-center"><img class="card-img-top" src="assets\images\ultra.jpg" alt="">
                         <div class="card-body">
                             <h5>ULTRA SOUND<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">Non-invasive imaging using sound waves to visualize internal organs,
                                 aiding diagnosis and monitoring.</p>
@@ -643,7 +805,7 @@
                     <div class="card text-center"><img class="card-img-top" src="assets\images\echo.jpeg" alt="">
                         <div class="card-body">
                             <h5>ECHO<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">Non-invasive ultrasound imaging of the heart's structure and function
                                 for diagnostic assessment.</p>
@@ -654,7 +816,7 @@
                     <div class="card text-center"><img class="card-img-top" src="assets\images\ecg.jpg" alt="">
                         <div class="card-body">
                             <h5>ECG,TMT<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">ECG: Records heart's electrical activity, aiding in diagnosing cardiac
                                 conditions. TMT: Stress test assesses heart
@@ -666,7 +828,7 @@
                     <div class="card text-center"><img class="card-img-top" src="assets\images\colour.jpeg" alt="">
                         <div class="card-body">
                             <h5>COLOUR DOPPLER<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">Ultrasound technique visualizing blood flow, aiding diagnosis of
                                 vascular conditions like DVT or arterial stenosis.</p>
@@ -677,7 +839,7 @@
                     <div class="card text-center"><img class="card-img-top" src="assets\images\bankblood.png" alt="">
                         <div class="card-body">
                             <h5>BLOOD BANK<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">Facility for collecting, testing, storing, and distributing blood and
                                 blood products for transfusions.</p>
@@ -688,7 +850,7 @@
                     <div class="card text-center"><img class="card-img-top" src="assets\images\rapidology.jpg" alt="">
                         <div class="card-body">
                             <h5>RAPIDOLOGY<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">An approach or field emphasizing speed, efficiency, and quick outcomes
                                 in various disciplines or industries.</p>
@@ -699,7 +861,7 @@
                     <div class="card text-center"><img class="card-img-top" src="assets\images\pathology.jpg" alt="">
                         <div class="card-body">
                             <h5>PATHOLOGY<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">Medical specialty studying diseases, examining tissues, fluids, and
                                 organs to diagnose conditions and guide treatment.</p>
@@ -711,7 +873,7 @@
                             alt="">
                         <div class="card-body">
                             <h5>ANAESTHESIA<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">Administered to induce temporary loss of sensation or consciousness
                                 during medical procedures.</p>
@@ -723,7 +885,7 @@
                             alt="">
                         <div class="card-body">
                             <h5>PHYSIOTHERPY<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">Treatment using exercises, massage, and other techniques to improve
                                 movement and manage pain.</p>
@@ -735,7 +897,7 @@
                             alt="">
                         <div class="card-body">
                             <h5>DIALYSIS<br />
-                                {{-- <span> Engineer </span> --}}
+
                             </h5>
                             <p class="card-text">Medical procedure purifying blood in patients with kidney failure, restoring balance and removing toxins.</p>
                         </div>
@@ -747,7 +909,7 @@
 
 
         </div>
-</section>
+</section> --}}
 
 <style type="text/css">
     a {
