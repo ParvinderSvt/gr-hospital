@@ -103,7 +103,7 @@
             </nav>
         </div>
 
-        <div class="container">
+        <div class="mx-4">
 
             <nav class="navbar navbar-expand-lg row my-2" aria-label="Eleventh navbar example">
 
