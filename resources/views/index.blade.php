@@ -200,7 +200,7 @@
                         Shamsabad Road, Kaveri
                         Vihar Phase II, Sri Nikunj Colony, Agra, Uttar Pradesh 282001. Our commitment to providing
                         compassionate and
-                        comprehensive medical services has made us a trusted name in the community.</p>
+                        comprehensive medical services with the capicity of 100+ Beds has made us a trusted name in the community.</p>
 
                         <p>At GR Hospital, we believe in a patient-centric approach, ensuring that each individual receives
                         personalized care
