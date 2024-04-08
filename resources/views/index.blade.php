@@ -470,7 +470,18 @@
                 <div>
                     <div class="card text-center"><img class="card-img-top" src="assets\images\rapidology.jpg" alt="">
                         <div class="card-body">
-                            <h5>RAPIDOLOGY<br />
+                            <h5>RADIOLOGY<br />
+
+                            </h5>
+                            <p class="card-text">Dispensing medications, compounding, advising, health education, patient care, pharmacists, prescriptions, drugs,
+                            pharmaceuticals, healthcare</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\pharmancy.png" alt="">
+                        <div class="card-body">
+                            <h5>PHARMACY<br />
 
                             </h5>
                             <p class="card-text">An approach or field emphasizing speed, efficiency, and quick outcomes
