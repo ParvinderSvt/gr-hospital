@@ -473,8 +473,8 @@
                             <h5>RADIOLOGY<br />
 
                             </h5>
-                            <p class="card-text">Dispensing medications, compounding, advising, health education, patient care, pharmacists, prescriptions, drugs,
-                            pharmaceuticals, healthcare</p>
+                            <p class="card-text">An approach or field emphasizing speed, efficiency, and quick outcomes
+                                in various disciplines or industries.</p>
                         </div>
                     </div>
                 </div>
@@ -484,8 +484,8 @@
                             <h5>PHARMACY<br />
 
                             </h5>
-                            <p class="card-text">An approach or field emphasizing speed, efficiency, and quick outcomes
-                                in various disciplines or industries.</p>
+                            <p class="card-text">Dispensing medications, compounding, advising, health education, patient care, pharmacists, prescriptions, drugs,
+                            pharmaceuticals, healthcare.</p>
                         </div>
                     </div>
                 </div>
