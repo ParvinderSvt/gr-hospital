@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('index');
 // });
-Route::resource('/',IndexController::class);
+Route::resource('/', IndexController::class);
 Route::get('/about-us', function () {
     return view('about');
 });
@@ -36,7 +36,7 @@ Route::resource('/department', DepartmentController::class);
 // Route::get('/doctors', function () {
 //     return view('doctors');
 // });
-Route::resource('doctors',DoctorController::class);
+Route::resource('doctors', DoctorController::class);
 
 Route::get('/contact', function () {
     return view('contact');
@@ -50,11 +50,27 @@ Route::get('/faqs', function () {
 
 Route::resource('gallery', GalleryController::class);
 
-Route::resource('/enquiry',EnquiryController::class);
+Route::resource('/enquiry', EnquiryController::class);
 // Route::post('/enquiry-store',EnquiryController::class,'store')->name('enquiry.store');
 
-Route::resource('appointment',AppointmentController::class);
+Route::resource('appointment', AppointmentController::class);
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
+});
+
+Route::get('migrate', function () {
+    Artisan::call('view:clear');
+    Artisan::call('route:clear');
+    Artisan::call('config:clear');
+    Artisan::call('cache:clear');
+    Artisan::call('migrate');
+});
+
+
+Route::get('/storage-link', function () {
+    $target = storage_path('app/public');
+    $link = public_path('/storage');
+    echo symlink($target, $link);
+    // echo "symbolic link created successfully";
 });
