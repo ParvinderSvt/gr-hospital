@@ -182,32 +182,39 @@
                 {{-- <h4 class="sec_title">Welcome</h4> --}}
                 <h2>G.R. Hospital & Research Centre</h2>
                 <h5 class="card-title mb-3 fw-bold"></h5>
+                <p>The G.R Hospital & Research Centre was founded by Dr Rajendra Singh M.D Medicine who is a renowned
+                    professional and a
+                    constant pillar to the wellfare and health of the community. The hospital was founded on the
+                    principal of providing the
+                    best yet affordable care .With it's long-standing presence in Agra the hospital is equipped to serve
+                    the people with
+                    quality and trust.Experience excellence in healthcare under one roof. With 150 beds spanning
+                    specialized units like
+                    ICCU, CCU, NICU, Emergency, Trauma, and our cutting-edge BURN Unit, we're equipped to handle any
+                    medical challenge with
+                    precision and care.Our dedicated nursing staff, rigorously trained and deeply committed, ensure that
+                    every patient
+                    receives compassionate attention and expert care throughout their journey.Backed by a team of over
+                    50 specialists and
+                    super specialists, each a leader in their field, we offer a breadth of clinical expertise unmatched
+                    elsewhere. Whether
+                    it's routine check-ups or complex treatments, we deliver personalized care tailored to your
+                    needs.And with our
+                    commitment to affordability, we make exceptional healthcare accessible to all.</p>
 
-                {{-- <p>G.R. Hospital & Research Centre is a multi super facility Hospital equipped to address a wide range
-                    of medical needs
-                    across various disciplines. With specialized departments including cardiology, neurology,
-                    orthopedics, oncology, and
-                    more, it offers diagnostic, therapeutic, and surgical services to patients. These hospitals
-                    integrate advanced medical
-                    technologies, skilled healthcare professionals, and cutting-edge treatments to deliver optimal care.
-                    Patients benefit
-                    from coordinated care plans tailored to their individual needs, ensuring holistic treatment and
-                    recovery. Multispecialty
-                    hospitals often serve as hubs for medical research, innovation, and education, striving to improve
-                    healthcare outcomes
-                    and enhance the overall well-being of the community they serve.</p> --}}
-                    <p>Welcome to GR Hospital, a beacon of healthcare excellence since 2007, situated at Baroli Aheer
-                        Shamsabad Road, Kaveri
-                        Vihar Phase II, Sri Nikunj Colony, Agra, Uttar Pradesh 282001. Our commitment to providing
-                        compassionate and
-                        comprehensive medical services with the capicity of 100+ Beds has made us a trusted name in the community.</p>
+                {{-- <p>Welcome to GR Hospital, a beacon of healthcare excellence since 2007, situated at Baroli Aheer
+                    Shamsabad Road, Kaveri
+                    Vihar Phase II, Sri Nikunj Colony, Agra, Uttar Pradesh 282001. Our commitment to providing
+                    compassionate and
+                    comprehensive medical services with the capicity of 100+ Beds has made us a trusted name in the
+                    community.</p>
 
-                        <p>At GR Hospital, we believe in a patient-centric approach, ensuring that each individual receives
-                        personalized care
-                        tailored to their unique needs. Our state-of-the-art facility is equipped with advanced medical
-                        technology and staffed
-                        by a team of highly skilled healthcare professionals dedicated to delivering the highest
-                        standards of medical care.</p>
+                <p>At GR Hospital, we believe in a patient-centric approach, ensuring that each individual receives
+                    personalized care
+                    tailored to their unique needs. Our state-of-the-art facility is equipped with advanced medical
+                    technology and staffed
+                    by a team of highly skilled healthcare professionals dedicated to delivering the highest
+                    standards of medical care.</p> --}}
                 <a href="{{ url('/about-us') }}" class="text-warning text-decoration-none">Read More <i
                         class="fa fa-long-arrow-right ps-2 small"></i> </a>
 
@@ -484,8 +491,9 @@
                             <h5>PHARMACY<br />
 
                             </h5>
-                            <p class="card-text">Dispensing medications, compounding, advising, health education, patient care, pharmacists, prescriptions, drugs,
-                            pharmaceuticals, healthcare.</p>
+                            <p class="card-text">Dispensing medications, compounding, advising, health education,
+                                patient care, pharmacists, prescriptions, drugs,
+                                pharmaceuticals, healthcare.</p>
                         </div>
                     </div>
                 </div>
@@ -525,13 +533,13 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card text-center"><img class="card-img-top" src="assets\images\dialysis.jpg"
-                            alt="">
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\dialysis.jpg" alt="">
                         <div class="card-body">
                             <h5>DIALYSIS<br />
 
                             </h5>
-                            <p class="card-text">Medical procedure purifying blood in patients with kidney failure, restoring balance and removing toxins.</p>
+                            <p class="card-text">Medical procedure purifying blood in patients with kidney failure,
+                                restoring balance and removing toxins.</p>
                         </div>
                     </div>
                 </div>
@@ -540,7 +548,7 @@
 
 
 
-        </div>
+    </div>
 </section>
 <section id="connect" class="whatnew_sec">
     <div class="container">
@@ -578,6 +586,117 @@
         </div>
 
 
+    </div>
+</section>
+
+<section class="appt-form" id="ppt-form">
+    <div class="container">
+        <div class="blue-box">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 ">
+                    <div class="text-box">
+                        <h2>Committed To Build A Positive, Safe, Patient Focused Culture.</h2>
+                        <p class="mt-5">Today the hospital is recognised as a world-renowned institution, not only
+                            providing
+                            outstanding care and treatment,
+                            but our goal is to deliver quality care in a respectful &amp; compassionate manner. We
+                            strive to be the first and
+                            best choice for healthcare.</p>
+                        <br>
+                        <div class="cms-button-wrapper cms-button layout1">
+                            <a href="https://www.pushpanjalihospital.in/doctors/" target="_blank" rel="nofollow"
+                                class="btn btn-white-secondary">
+
+                                <span class="cms-button-text">Find A Doctor </span> <i class="fa fa-arrow-right"></i>
+                            </a>
+                            <a href="https://www.pushpanjalihospital.in/contact-us" target="_blank" rel="nofollow"
+                                class="btn btn-outline-white">
+                                <span class="cms-button-icon cms-align-icon-">
+                                </span>
+                                <span class="cms-button-text">Contact Us</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="form-box">
+                        <div class="container">
+                            <h2 class="mb-3" style="color: #fff;">Book Appointment</h2>
+                            <form action="{{ route('appointment.store') }}" method="post">
+                                @csrf
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                        <label for="name">Name:</label>
+                                        <input type="text" id="name" name="name" required>
+                                        @error('name')
+                                        <p class="text-danger">{{ $message }}</p>
+                                        @enderror
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                        <label for="phone">Phone No:</label>
+                                        <input type="tel" pattern="[6-9]{1}[0-9]{9}"
+                                            title="Phone number with 6-9 and remaing 9 digit with 0-9" id="phone"
+                                            name="phone" required>
+                                        @error('phone')
+                                        <p class="text-danger">{{ $message }}</p>
+                                        @enderror
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                        <label for="gender">Email:</label>
+                                        <input type="email" id="name" name="email" required>
+                                        @error('email')
+                                        <p class="text-danger">{{ $message }}</p>
+                                        @enderror
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                        <label for="date">Date:</label>
+                                        <input type="date" id="date" name="appointment_date" required>
+                                        @error('appointment_date')
+                                        <p class="text-danger">{{ $message }}</p>
+                                        @enderror
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                        <label for="date">City:</label>
+                                        <input type="text" id="city" name="city" required>
+                                        @error('city')
+                                        <p class="text-danger">{{ $message }}</p>
+                                        @enderror
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                        <label for="date">Time:</label>
+                                        <input type="time" id="time" name="time" required>
+                                        @error('city')
+                                        <p class="text-danger">{{ $message }}</p>
+                                        @enderror
+                                    </div>
+
+                                    <?php
+                                                                                                        $Doctor= App\Models\Doctor::all();
+                                                                                                        ?>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 ">
+                                        <label for="department">Doctor:</label>
+                                        <select id="department" name="doctor" required>
+                                            @foreach ($Doctor as $department)
+
+                                            <option value="{{
+                                                                                        $department->name }}">{{
+                                                $department->name }}</option>
+
+                                            @endforeach
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="submit" value="Submit" style="
+    color: #fff;
+    background: #b90000;">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -904,13 +1023,13 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card text-center"><img class="card-img-top" src="assets\images\dialysis.jpg"
-                            alt="">
+                    <div class="card text-center"><img class="card-img-top" src="assets\images\dialysis.jpg" alt="">
                         <div class="card-body">
                             <h5>DIALYSIS<br />
 
                             </h5>
-                            <p class="card-text">Medical procedure purifying blood in patients with kidney failure, restoring balance and removing toxins.</p>
+                            <p class="card-text">Medical procedure purifying blood in patients with kidney failure,
+                                restoring balance and removing toxins.</p>
                         </div>
                     </div>
                 </div>
@@ -919,7 +1038,7 @@
 
 
 
-        </div>
+    </div>
 </section> --}}
 
 <style type="text/css">

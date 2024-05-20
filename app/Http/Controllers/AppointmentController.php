@@ -13,7 +13,6 @@ class AppointmentController extends Controller
     public function index()
     {
         return view('appointment');
-
     }
 
     /**
@@ -31,15 +30,15 @@ class AppointmentController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'gender' => 'required',
+            'time' => 'required',
             'phone' => 'required',
             'appointment_date' => 'required',
-            'department' => 'required'
+            'doctor' => 'required'
         ]);
 
         Appointment::create($request->post());
 
-        return redirect()->route('appointment.index')->with('success','Your appointment has been successfully processed !!');
+        return redirect()->back()->with('success', 'Your appointment has been successfully processed !!');
     }
 
     /**

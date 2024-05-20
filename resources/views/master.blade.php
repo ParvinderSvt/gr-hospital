@@ -108,9 +108,13 @@
             <nav class="navbar navbar-expand-lg row my-2" aria-label="Eleventh navbar example">
 
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="{{ config('app.url') }}/"><img
+                    {{-- <a class="navbar-brand" href="{{ config('app.url') }}/"><img
                             src="{{ config('app.url') }}/assets/images/sm-logo.jpg" alt="GR Hospital"
-                            class="ah_logo"></a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            class="ah_logo"></a> --}}
+                    <a class="navbar-brand" href="{{ config('app.url') }}/"><img
+                            src="{{ config('app.url') }}/assets\images\nabh-sm-logo.jpg" alt="GR Hospital"
+                            class="ah_logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -211,7 +215,7 @@
                             </a>
                         </li>
                         <li class="book-appointment">
-                            <a target="_self" href="{{ route('appointment.index') }}">
+                            <a target="_self" href="{{ route('index') }}#ppt-form">
                                 <i class="fa-solid fa-calendar-days me-2"></i>
                                 Book Appointment
                             </a>
@@ -269,7 +273,7 @@
         </div>
     </div>
     <?php
-    $latest_departments = App\Models\Department::latest()->take(5)->get();
+    $latest_departments = App\Models\Department::get();
     ?>
     <footer>
         <div class="container">
@@ -283,84 +287,89 @@
                     <p>098371 55566</p>
                     <p></p>
                 </div>
-                <div class="col-md-9">
-                    <div class="row row-cols-lg-3 row-cols-2">
-                        <div class="col">
-                            <h5>Deapartments</h5>
-                            <ul class="list-unstyled ft-links">
-                                @foreach ($latest_departments as $item)
-                                <li><a href="{{  route('department.show',$department->id) }}" target="_blank">{{
-                                        $item->title }}</a> </li>
-                                @endforeach
-                            </ul>
+                <style>
+                    .list-unstyled.ft-links {
+                        -webkit-column-count: 2;
+                        -moz-column-count: 2;
+                        column-count: 2;
 
-                        </div>
-                        <div class="col">
-                            <h5>Quick Links</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="{{ config('app.url') }}/">Home</a> </li>
-                                <li><a href="{{url('/doctors')}}">Doctors </a> </li>
-                                <li><a href="{{url('/gallery')}}">gallery</a> </li>
-                                <li><a href="{{url('/faqs')}}">FAQ's</a> </li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <h5>Contact Us</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="{{url('/contact')}}" target="_blank">Request a Callback</a> </li>
-                                <li><a href="{{ route('appointment.index') }}">Book Appointment</a> </li>
-                                <li><a href="{{url('/contact')}}">Get Health Checkup</a>
-                                </li>
-                            </ul>
+                    }
+                </style>
+                <div class="col-md-5">
+                    <h5>Departments</h5>
+                    <ul class="list-unstyled ft-links">
+                        @foreach ($latest_departments as $item)
+                        <li><a href="{{  route('department.show',$department->id) }}">{{
+                                $item->title }}</a> </li>
 
-                        </div>
-                        {{-- <div class="col">
-                            <h5>Corporate</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#">Company Overview</a> </li>
-                                <li><a href="#">Our
-                                        Doctors Achieve</a> </li>
-                                <li><a href="#">The GR Ethos</a> </li>
-                                <li><a href="#">The
-                                        GR Story</a> </li>
-                                <li><a href="#">Management</a> </li>
-                                <li><a href="#">Investor
-                                        Relations</a>
-                                </li>
-                                <li><a href="#">Investor
-                                        Presentation</a> </li>
-                                <li><a href="#">Initiatives</a> </li>
+                        @endforeach
+                    </ul>
 
-                            </ul>
-
-                        </div>
-                        <div class="col">
-                            <h5>Academics &amp; Research</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#">Courses</a> </li>
-                                <li><a href="#">Academics</a> </li>
-                                <li><a href="#">Clinical
-                                        Research</a> </li>
-                                <li><a href="#">Honors List</a> </li>
-                                <li><a href="#"> GR Torch: Alumni
-                                        Network</a> </li>
-
-                            </ul>
-                            <h5>Contact Us</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#">Post A Query</a> </li>
-                                <li><a href="#" target="_blank">Book Physical Appointment</a>
-                                </li>
-
-                            </ul>
-                        </div>
-                        <p></p> --}}
-                    </div>
-                    <p></p>
                 </div>
+                <div class="col-md-2">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="{{ config('app.url') }}/">Home</a> </li>
+                        <li><a href="{{url('/doctors')}}">Doctors </a> </li>
+                        <li><a href="{{url('/gallery')}}">gallery</a> </li>
+                        <li><a href="{{url('/faqs')}}">FAQ's</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="{{url('/contact')}}" target="_blank">Request a Callback</a> </li>
+                        <li><a href="{{ route('appointment.index') }}">Book Appointment</a> </li>
+                        <li><a href="{{url('/contact')}}">Get Health Checkup</a>
+                        </li>
+                    </ul>
+
+                </div>
+                {{-- <div class="col">
+                    <h5>Corporate</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Company Overview</a> </li>
+                        <li><a href="#">Our
+                                Doctors Achieve</a> </li>
+                        <li><a href="#">The GR Ethos</a> </li>
+                        <li><a href="#">The
+                                GR Story</a> </li>
+                        <li><a href="#">Management</a> </li>
+                        <li><a href="#">Investor
+                                Relations</a>
+                        </li>
+                        <li><a href="#">Investor
+                                Presentation</a> </li>
+                        <li><a href="#">Initiatives</a> </li>
+
+                    </ul>
+
+                </div>
+                <div class="col">
+                    <h5>Academics &amp; Research</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Courses</a> </li>
+                        <li><a href="#">Academics</a> </li>
+                        <li><a href="#">Clinical
+                                Research</a> </li>
+                        <li><a href="#">Honors List</a> </li>
+                        <li><a href="#"> GR Torch: Alumni
+                                Network</a> </li>
+
+                    </ul>
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Post A Query</a> </li>
+                        <li><a href="#" target="_blank">Book Physical Appointment</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <p></p> --}}
             </div>
 
         </div>
+
     </footer>
     <section class="cprght_ftr">
         <div class="container">
