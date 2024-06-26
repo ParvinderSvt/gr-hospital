@@ -229,8 +229,8 @@
 
                     <div id="hospital-loc-holder" class="location-info ms-lg-auto">
                         <div class="card border-0 rounded-4 ah_shadow">
-                            <img src="{{ url('assets/images/2023-01-12.jpg') }}"
-                                class="card-img-top p-2 rounded-4 img-fluid" alt="GR Hospital">
+                            <img src="{{ url('assets/images/gr2.webp') }}"
+                                class="card-img-top p-2 rounded-4 img-fluid" alt="GR Hospital" style="height: 30rem;object-fit: cover;">
                         </div>
 
                     </div>
