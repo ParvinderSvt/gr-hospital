@@ -629,12 +629,12 @@
                                 best choice for healthcare.</p>
                             <br>
                             <div class="cms-button-wrapper cms-button layout1">
-                                <a href="https://www.pushpanjalihospital.in/doctors/" target="_blank" rel="nofollow"
+                                <a href="{{ route('doctors.index') }}" target="_blank" rel="nofollow"
                                     class="btn btn-white-secondary">
 
                                     <span class="cms-button-text">Find A Doctor </span> <i class="fa fa-arrow-right"></i>
                                 </a>
-                                <a href="https://www.pushpanjalihospital.in/contact-us" target="_blank" rel="nofollow"
+                                <a href="{{ url('contact') }}" target="_blank" rel="nofollow"
                                     class="btn btn-outline-white">
                                     <span class="cms-button-icon cms-align-icon-">
                                     </span>
