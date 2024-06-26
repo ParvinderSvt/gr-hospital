@@ -185,7 +185,7 @@
                                 </li>
                                 <li id="tl_corporate"
                                     class="highlight-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-6529">
-                                    <a href="{{url('/faqs')}}" aria-haspopup="true" aria-expanded="false">FAQ’s</a>
+                                    <a href="{{url('/career')}}" aria-haspopup="true" aria-expanded="false">Career</a>
                                 </li>
 
                                 <li id="tl_contact_us"

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AppointmentController;
+use App\Http\Controllers\CareerController;
 use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\DoctorController;
 use App\Http\Controllers\EnquiryController;
@@ -48,12 +49,15 @@ Route::get('/faqs', function () {
     return view('faqs');
 });
 
+Route::view('career','career')->name('career');
+
+Route::post('/career-store', [CareerController::class, 'career'])->name('career.store');
 Route::resource('gallery', GalleryController::class);
 
 Route::resource('/enquiry', EnquiryController::class);
-// Route::post('/enquiry-store',EnquiryController::class,'store')->name('enquiry.store');
 
 Route::resource('appointment', AppointmentController::class);
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
