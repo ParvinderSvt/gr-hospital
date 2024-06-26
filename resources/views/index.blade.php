@@ -153,7 +153,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active h-100">
                 <div class="herobanner-img position-relative h-100">
-                    <img src="{{ url('assets/images/banner1.webp') }}" style="width:100%" alt="banner" class="jpdiv">
+                    <img src="{{ url('assets/images/nb3.jpg') }}" style="width:100%" alt="banner" class="jpdiv">
 
 
                 </div>
@@ -161,13 +161,19 @@
 
             <div class="carousel-item h-100">
                 <div class="herobanner-img position-relative h-100">
-                    <img src="{{ url('assets/images/17-compressed.jpg') }}" style="width:100%" alt="banner"
+                    <img src="{{ url('assets/images/nb1.jpg') }}" style="width:100%" alt="banner"
                         class="jpdiv">
                 </div>
             </div>
             <div class="carousel-item h-100">
                 <div class="herobanner-img position-relative h-100">
-                    <img src="{{ url('assets/images/123123-compressed_0.jpg') }}" style="width:100%" alt="banner"
+                    <img src="{{ url('assets/images/nb2.jpg') }}" style="width:100%" alt="banner"
+                        class="jpdiv">
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <div class="herobanner-img position-relative h-100">
+                    <img src="{{ url('assets/images/nb6.jpg') }}" style="width:100%" alt="banner"
                         class="jpdiv">
                 </div>
             </div>
@@ -367,7 +373,7 @@
             <div class="gtco-testimonials">
                 <div class="owl-carousel owl-carousel1 owl-theme">
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\gremergency.png"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\gremergency.png"
                                 alt="">
                             <div class="card-body">
                                 <h5>24X7 Hours Emergency <br />
@@ -380,7 +386,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\icu,ccu,nicu.jpg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\icu,ccu,nicu.jpg"
                                 alt="">
                             <div class="card-body">
                                 <h5>NICU,ICU,CCU<br />
@@ -393,7 +399,7 @@
                     </div>
 
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\Cathlab1.jpg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\Cathlab1.jpg"
                                 alt="">
                             <div class="card-body">
                                 <h5>CATH LAB<br />
@@ -405,7 +411,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\ct-scan-15e991.gif"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\ct-scan-15e991.gif"
                                 alt="">
                             <div class="card-body">
                                 <h5>CT SCAN<br />
@@ -417,7 +423,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\xray.jpeg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\xray.jpeg"
                                 alt="">
                             <div class="card-body">
                                 <h5>ALL X-RAY<br />
@@ -429,7 +435,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\ultra.jpg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\ultra.jpg"
                                 alt="">
                             <div class="card-body">
                                 <h5>ULTRA SOUND<br />
@@ -441,7 +447,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\echo.jpeg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\echo.jpeg"
                                 alt="">
                             <div class="card-body">
                                 <h5>ECHO<br />
@@ -453,7 +459,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\ecg.jpg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\ecg.jpg"
                                 alt="">
                             <div class="card-body">
                                 <h5>ECG,TMT<br />
@@ -466,7 +472,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\colour.jpeg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\colour.jpeg"
                                 alt="">
                             <div class="card-body">
                                 <h5>COLOUR DOPPLER<br />
@@ -478,7 +484,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\bankblood.png"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\bankblood.png"
                                 alt="">
                             <div class="card-body">
                                 <h5>BLOOD BANK<br />
@@ -490,7 +496,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\rapidology.jpg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\rapidology.jpg"
                                 alt="">
                             <div class="card-body">
                                 <h5>RADIOLOGY<br />
@@ -502,7 +508,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\pharmancy.png"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\pharmancy.png"
                                 alt="">
                             <div class="card-body">
                                 <h5>PHARMACY<br />
@@ -515,7 +521,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\pathology.jpg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\pathology.jpg"
                                 alt="">
                             <div class="card-body">
                                 <h5>PATHOLOGY<br />
@@ -527,7 +533,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\Anaesthesia-2.jpg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\Anaesthesia-2.jpg"
                                 alt="">
                             <div class="card-body">
                                 <h5>ANAESTHESIA<br />
@@ -539,7 +545,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\phyiotherapy.jpeg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\phyiotherapy.jpeg"
                                 alt="">
                             <div class="card-body">
                                 <h5>PHYSIOTHERPY<br />
@@ -551,7 +557,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card text-center"><img class="card-img-top" src="assets\images\dialysis.jpg"
+                        <div class="card text-center"><img class="card-img-top" src="{{ config('app.url') }}/assets\images\dialysis.jpg"
                                 alt="">
                             <div class="card-body">
                                 <h5>DIALYSIS<br />

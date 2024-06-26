@@ -95,7 +95,7 @@
                                 325 9291</a> </li>
                         <li class="nav-item"><a href="disclaimer/index.html"
                                 class="nav-link link-dark px-2">Disclaimer</a></li> --}}
-                        <li class="nav-item "><a href="{{url('/contact')}}"
+                        <li class="nav-item "><a href="tel:05623259291"
                                 class="nav-link link-dark px-2 border-0">Emergency:0562325 9291</a></li>
 
                     </ul>
@@ -284,7 +284,7 @@
                     <p><b>Address:</b> BEROLI AHIR SHAMSABAD ROAD, Shamsabad Road, Kaveri Vihar Phase II, Sri Nikunj
                         Colony, Agra, Uttar Pradesh
                         282001</p>
-                    <p>098371 55566</p>
+                    <a href="tel:09837155566">098371 55566</a>
                     <p></p>
                 </div>
                 <style>
@@ -376,7 +376,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="pt-2">© Copyright 2024. Designed and Developed by <a href="https://svtindia.in/"
-                            style="color: aliceblue;">SVT
+                            style="color: aliceblue;" target="_blank">SVT
                             India.</a></div>
                 </div>
                 <div class="col-md-3">
