@@ -595,7 +595,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 ">
                     <div class="text-box">
-                        <h2>Committed To Build A Positive, Safe, Patient Focused Culture. Dhruv</h2>
+                        <h2>Committed To Build A Positive, Safe, Patient Focused Culture.</h2>
                         <p class="mt-5">Today the hospital is recognised as a world-renowned institution, not only
                             providing
                             outstanding care and treatment,
